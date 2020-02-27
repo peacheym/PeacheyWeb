@@ -1,0 +1,23 @@
+{
+  "name": "PeacheyWeb",
+  "version": "1.0.0",
+  "description": "Source code and automatic heroku deployment of my personal website.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peacheym/PeacheyWeb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peacheym/PeacheyWeb/issues"
+  },
+  "homepage": "https://github.com/peacheym/PeacheyWeb#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

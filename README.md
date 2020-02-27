@@ -1,2 +1,2 @@
 # PeacheyWeb
-Source code and automatic heroku deployment of my personal website.
+This repository contains the source code for my personal website which can be found at [mattpeachey.ca](https://mattpeachey.ca)!
