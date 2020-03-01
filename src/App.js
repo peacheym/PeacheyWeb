@@ -1,6 +1,7 @@
 import React from 'react';
 import NavBar from './NavBar';
-import {Jumbotron, Container} from 'react-bootstrap';
+import FeaturedProjects from './FeaturedProjects'
+import {Jumbotron, Container, Button} from 'react-bootstrap';
 import './App.css';
 
 function App() {
@@ -8,16 +9,17 @@ function App() {
     <div className="App">
       <header>
         <NavBar></NavBar>
-      </header>
-    <Jumbotron fluid>
+    <Jumbotron fluid class="jt">
         <Container>
-            <h1>Welcome</h1>
+            <h1>Matt Peachey</h1>
             <p>
-            This is a modified jumbotron that occupies the entire horizontal space of
-            its parent.
+                I am a Computer Science Student from Dalhousie University.
             </p>
+            <Button href="/about">About Me</Button>
         </Container>
     </Jumbotron>
+    </header>
+    <FeaturedProjects proj1="testprops"></FeaturedProjects>
     </div>
   );
 }
