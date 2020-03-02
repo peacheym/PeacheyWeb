@@ -10,7 +10,7 @@ class Experience extends Component {
   render() {
       return <Container>
 	<h1 className="exph1">Work Experience</h1>
-	<Row className="expRow" >
+	<Row className="expRow" style={{marginTop:'100px'}}>
 		<Col md={4}>
 		<Image style={{ width: '90%' }} src={goc} alt="Image" rounded />
 		</Col>
@@ -28,6 +28,8 @@ class Experience extends Component {
 		<h5 className="workterm">January 2020 - Present</h5>
 		</Col>
 	</Row>
+
+	<hr style={{width:'60%', marginBottom:'100px'}}/>
 		
 	<Row className="expRow">
 		<Col md={4}>
@@ -48,6 +50,8 @@ class Experience extends Component {
 		</Col>
 	</Row>
 
+	<hr style={{width:'60%', marginBottom:'100px'}}/>
+
 	<Row className="expRow">
 		<Col md={4}>
 		<Image className="dalLogo" style={{ width: '90%' }} src={dal} alt="Image" rounded />
@@ -60,7 +64,8 @@ class Experience extends Component {
 		<h5 className="workterm">September 2018 - December 2019</h5>
 		</Col>
 	</Row>
-	<h1 className="exph1">Volunteer Experience</h1>
+	<hr style={{width:'60%', marginBottom:'100px'}}/>
+	<h1 className="exph1" style={{marginTop:'150px'}}>Volunteer Experience</h1>
 
 <Row className="expRow">
 		<Col md={4}>
@@ -75,6 +80,7 @@ class Experience extends Component {
 		<h5 className="workterm">April 2019 - December 2019</h5>
 		</Col>
 	</Row>
+	<hr style={{width:'60%', marginBottom:'100px'}}/>
 	<Row className="expRow">
 		<Col md={4}>
 		<Image className="dalLogo" style={{ width: '90%'}} src={dal} alt="Image" rounded />
@@ -87,6 +93,7 @@ class Experience extends Component {
 		<h5 className="workterm">September 2018 - April 2019</h5>
 		</Col>
 	</Row>
+	<hr style={{width:'60%', marginBottom:'100px'}}/>
 	</Container>
   }
 }
