@@ -7,7 +7,7 @@ import img from './logo192.png';
 class FeaturedProjects extends Component {
   render() {
       return <Container>
-      <h1 class="fp">Featured Projects</h1>
+      <h1 className="fp">Featured Projects</h1>
           <Row>
             <Col md className="fpcard">
                 <Card style={{ width: '16rem' }}>
