@@ -9,7 +9,7 @@ class FeaturedProjects extends Component {
       return <Container>
       <h1 class="fp">Featured Projects</h1>
           <Row>
-            <Col md>
+            <Col md className="fpcard">
                 <Card style={{ width: '16rem' }}>
                     <Card.Img variant="top" src={img}/>
                     <Card.Body>
@@ -17,12 +17,12 @@ class FeaturedProjects extends Component {
                         <Card.Text>
                             Project details coming soon!
                         </Card.Text>
-                        <Button variant="primary">Read more</Button>
+                        <Button variant="primary" href="/projects">Read more</Button>
                     </Card.Body>
                 </Card>
             </Col>
 
-            <Col md>
+            <Col md className="fpcard">
                 <Card style={{ width: '16rem' }}>
                     <Card.Img variant="top" src={img}/>
                     <Card.Body>
@@ -30,12 +30,12 @@ class FeaturedProjects extends Component {
                         <Card.Text>
                             Project details coming soon!
                         </Card.Text>
-                        <Button variant="primary">Read more</Button>
+                        <Button variant="primary" href="/projects">Read more</Button>
                     </Card.Body>
                 </Card>
             </Col>
 
-            <Col md>
+            <Col md className="fpcard">
                 <Card style={{ width: '16rem' }}>
                     <Card.Img variant="top" src={img}/>
                     <Card.Body>
@@ -43,7 +43,7 @@ class FeaturedProjects extends Component {
                         <Card.Text>
                             Project details coming soon!
                         </Card.Text>
-                        <Button variant="primary">Read more</Button>
+                        <Button variant="primary" href="/projects">Read more</Button>
                     </Card.Body>
                 </Card>
             </Col>

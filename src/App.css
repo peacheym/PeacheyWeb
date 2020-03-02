@@ -21,6 +21,12 @@ html{
     margin-bottom: 50px;
 }
 
+.fpcard{
+	display:flex;
+	justify-content: center;
+	margin-top:25px;
+}
+
 .about {
 
     padding-top: 60px;
@@ -71,6 +77,10 @@ margin-bottom:70px;
 .funsportsLogo{
 margin-top:80px;
 margin-bottom:70px;
+}
+.contact{
+width:60%;
+margin: 0px auto;
 }
 
 #filler{
