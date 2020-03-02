@@ -9,8 +9,8 @@ class NavBar extends Component {
         <Navbar.Brand href="/">Matt Peachey</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
+          <Nav className="ml-auto">
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/experience">Experience</Nav.Link>
             <Nav.Link href="/projects">Projects</Nav.Link>
           </Nav>

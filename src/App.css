@@ -1,9 +1,15 @@
-.App {
-  text-align: center;
+html{
+    scroll-behavior: smooth;
 }
 
-header > .jumbotron {
-    background-color: #EBB7FF;
+.App {
+  text-align: center;
+  font-family: 'Ubuntu', ;
+}
+
+.jt {
+    padding-top: 125px;
+    padding-bottom: 125px;
 }
 
 .App-link {
@@ -13,4 +19,29 @@ header > .jumbotron {
 
 .fp{
     margin-bottom: 50px;
+}
+
+.about {
+
+    padding-top: 60px;
+    margin-bottom: 100px;
+}
+
+.about h2{
+    margin-top: 25px;
+}
+
+.headshot{
+    max-width: 80%;
+}
+
+#filler{
+    margin-top: 150px;
+    min-height: 500px;
+}
+
+footer{
+    background-color: #CCD8E5;
+    font-weight: bold;
+    padding:20px;
 }

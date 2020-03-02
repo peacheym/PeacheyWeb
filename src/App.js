@@ -1,25 +1,42 @@
 import React from 'react';
 import NavBar from './NavBar';
-import FeaturedProjects from './FeaturedProjects'
-import {Jumbotron, Container, Button} from 'react-bootstrap';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+
+import Home from './home/Home';
+import Experience from './experience/Experience';
+import Projects from './projects/Projects';
+
+import Footer from './Footer';
+
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <NavBar></NavBar>
-    <Jumbotron fluid class="jt">
-        <Container>
-            <h1>Matt Peachey</h1>
-            <p>
-                I am a Computer Science Student from Dalhousie University.
-            </p>
-            <Button href="/about">About Me</Button>
-        </Container>
-    </Jumbotron>
-    </header>
-    <FeaturedProjects proj1="testprops"></FeaturedProjects>
+        <header>
+            <NavBar></NavBar>
+        </header>
+
+        <Router>
+            <Switch>
+                <Route exact path="/">
+                    <Home/>
+                </Route>
+                <Route path="/experience">
+                    <Experience/>
+                </Route>
+                <Route path="/projects">
+                    <Projects/>
+                </Route>
+            </Switch>
+        </Router>
+
+        <Footer/>
+
     </div>
   );
 }
