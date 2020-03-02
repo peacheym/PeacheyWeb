@@ -36,7 +36,41 @@ html{
 }
 
 .expRow{
-    margin-top:100px;
+    margin-top:50px;
+    margin-bottom:100px;
+}
+.expRow *{
+	padding: 0px 20px;
+}
+
+.exph1{
+    margin-top: 75px;
+    margin-bottom:75px;
+    font-size: 3.5em;
+}
+
+.listGroup{
+	margin: 15px auto;
+}
+
+.employer{
+	color: red;
+	margin-bottom:25px;
+}
+
+.workterm{
+	color: red;
+	margin-top: 25px;
+}
+
+.dalLogo{
+margin-top:70px;
+margin-bottom:70px;
+}
+
+.funsportsLogo{
+margin-top:80px;
+margin-bottom:70px;
 }
 
 #filler{
