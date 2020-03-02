@@ -35,6 +35,10 @@ html{
     max-width: 80%;
 }
 
+.expRow{
+    margin-top:100px;
+}
+
 #filler{
     margin-top: 150px;
     min-height: 500px;
