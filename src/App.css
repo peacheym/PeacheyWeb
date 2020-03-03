@@ -13,12 +13,13 @@ html{
 }
 
 .App-link {
-  color: #61dafb;
-  display: inline;
+    color: #61dafb;
+    display: inline;
 }
 
 .fp{
-    margin-bottom: 50px;
+    margin-top: 150px;
+    margin-bottom: 30px;
 }
 
 .fpcard{
