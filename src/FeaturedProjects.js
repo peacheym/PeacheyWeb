@@ -18,7 +18,7 @@ class FeaturedProjects extends Component {
                         <Card.Text>
                             corgpredicts.com is a website that gives information about the statistical model used to predict a winning bracket for the 2020 march madness tournament.
                         </Card.Text>
-                        <Button variant="primary" href="https://github.com/peacheym/CorgPredicts">Read more</Button>
+                        <Button variant="primary" href="https://github.com/peacheym/CorgPredicts">Read more on GitHub</Button>
                     </Card.Body>
                 </Card>
             </Col>
@@ -31,7 +31,7 @@ class FeaturedProjects extends Component {
                         <Card.Text>
                             A small game made with P5.js and P5.play that recreates a space invader vibe with a few added twists.
                         </Card.Text>
-                        <Button variant="primary" href="https://github.com/peacheym/GameJamFall2018">Read more</Button>
+                        <Button variant="primary" href="https://github.com/peacheym/GameJamFall2018">Read more on GitHub</Button>
                     </Card.Body>
                 </Card>
             </Col>
@@ -44,7 +44,7 @@ class FeaturedProjects extends Component {
                         <Card.Text>
                             This personal website was built with React.js and Node.js. It was built without the use of templates, and designed by me.
                         </Card.Text>
-                        <Button variant="primary" href="https://github.com/peacheym/PeacheyWeb">Read more</Button>
+                        <Button variant="primary" href="https://github.com/peacheym/PeacheyWeb">Read more on GitHub</Button>
                     </Card.Body>
                 </Card>
             </Col>
