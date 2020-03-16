@@ -12,7 +12,6 @@ class NavBar extends Component {
           <Nav className="ml-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/experience">Experience</Nav.Link>
-            <Nav.Link href="/projects">Projects</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
