@@ -11,7 +11,7 @@ class Home extends Component {
       <Jumbotron fluid className="jt">
           <Container>
               <h1>Matt Peachey</h1>
-              <p>Third year Computer Science student from Dalhousie University!</p>
+              <p>Fourth year Computer Science student from Dalhousie University!</p>
               <Button className="btn-dark" href="#about">About Me</Button>
           </Container>
       </Jumbotron>
