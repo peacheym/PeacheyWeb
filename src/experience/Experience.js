@@ -25,7 +25,7 @@ class Experience extends Component {
 		  <ListGroup.Item action href="https://reactjs.org">React.js</ListGroup.Item>
 		  <ListGroup.Item action href="https://graphql.org">GraphQL</ListGroup.Item>
 		</ListGroup>
-		<h5 className="workterm">January 2020 - Present</h5>
+		<h5 className="workterm">January 2020 - August 2020</h5>
 		</Col>
 	</Row>
 
