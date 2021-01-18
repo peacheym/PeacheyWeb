@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import "../App.css";
-import headshot from "./matt_headshot.jpeg";
+import headshot from "./headshot.jpg";
 
 class About extends Component {
   render() {
