@@ -30,7 +30,10 @@ class Experience extends Component {
             <p>
               I also had the pleasure of collaborating with the EPIC team from
               Microsoft Research on their open-source project,{" "}
-              <a href="https://www.microsoft.com/en-us/research/publication/movebox-democratizing-mocap-for-the-microsoft-rocketbox-avatar-library/">
+              <a
+                padding="0px"
+                href="https://www.microsoft.com/en-us/research/publication/movebox-democratizing-mocap-for-the-microsoft-rocketbox-avatar-library/"
+              >
                 MoveBox
               </a>
               . MoveBox is a tool kit that aims to provide accessible motion
