@@ -194,6 +194,40 @@ class Experience extends Component {
         <Row className="expRow">
           <Col md={4}>
             <Image
+              className="dalLogo"
+              style={{ width: "90%" }}
+              src={dal}
+              alt="Image"
+              rounded
+            />
+          </Col>
+          <Col md={8}>
+            <h2>Web Developer</h2>
+            <h3 className="employer">Dalhousie Faculty of Health</h3>
+            <p>
+              In September of 2020, as a response to the Covid19 pandemic, I
+              created a dynamic web-application for the Faculty of Health that
+              allowed them to streamline their contact tracing process. The
+              web-app allowed students to confidentially fill out a
+              questionnaire and once completed, the application would notify
+              them wether or not they were permitted to enter the in-person
+              session. Instructors were able to login to a secure section of the
+              web-app and download a .csv file for each of their classes on a
+              given day in the event that an exposure had occurred.
+            </p>
+            <p>
+              Since the initial deployment of this web-app, the Faculty of
+              Health to maintain and update the application as their needs
+              evolve.
+            </p>
+
+            <h5 className="workterm">September 2020 - Present</h5>
+          </Col>
+        </Row>
+
+        <Row className="expRow">
+          <Col md={4}>
+            <Image
               className="funsportsLogo"
               style={{ width: "90%" }}
               src={funsports}
