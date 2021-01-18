@@ -61,7 +61,7 @@ class Research extends Component {
         </Row>
         <Row>
           <p>
-            <a href="#">
+            <a href="https://mattpeachey.ca/research">
               Abbey Singh, Ramanpreet Kaur, Peter Haltner,{" "}
               <strong>Matthew Peachey</strong>, Mar Gonzalez-Franco, Joseph
               Malloch and Derek Reilly (2021){" "}
