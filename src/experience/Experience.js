@@ -14,7 +14,7 @@ class Experience extends Component {
         <h1 className="exph1">Work Experience</h1>
         <Row className="expRow" style={{ marginTop: "100px" }}>
           <Col md={4}>
-            <Image style={{ width: "90%" }} src={goc} alt="Image" rounded />
+            <Image style={{ width: "90%" }} src={gem} alt="Image" rounded />
           </Col>
           <Col md>
             <h2>Undergraduate Research Assistant</h2>
