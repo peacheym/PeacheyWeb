@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import FeaturedProjects from "../FeaturedProjects";
+// import FeaturedProjects from "../FeaturedProjects";
 import About from "./About";
-import Contact from "./Contact";
+// import Contact from "./Contact";
 import { Jumbotron, Container, Button } from "react-bootstrap";
 import "../App.css";
 
