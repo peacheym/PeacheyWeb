@@ -5,12 +5,66 @@ import goc from "./goc.png";
 import ultra from "./ultra.png";
 import dal from "./dal.jpg";
 import funsports from "./funsports.png";
+import gem from "./gem.png";
 
 class Experience extends Component {
   render() {
     return (
       <Container>
         <h1 className="exph1">Work Experience</h1>
+        <Row className="expRow" style={{ marginTop: "100px" }}>
+          <Col md={4}>
+            <Image style={{ width: "90%" }} src={goc} alt="Image" rounded />
+          </Col>
+          <Col md>
+            <h2>Undergraduate Research Assistant</h2>
+            <h3 className="employer">GEM Lab</h3>
+            <p>
+              Through funding provided by a undergraduate student research award
+              (USRA), I conducted research in the GEM Lab on the StoryCreatAR
+              project. This project's goal was to utilize space syntax (a set of
+              measurements about a physical space, originally defined in the
+              study of architecture) to place virtual objects in meaningful
+              locations while constructing augmented reality narratives.
+            </p>
+            <p>
+              I also had the pleasure of collaborating with the EPIC team from
+              Microsoft Research on their open-source project,{" "}
+              <a href="https://www.microsoft.com/en-us/research/publication/movebox-democratizing-mocap-for-the-microsoft-rocketbox-avatar-library/">
+                MoveBox
+              </a>
+              . MoveBox is a tool kit that aims to provide accessible motion
+              capture software for researchers and developers that may have
+              otherwise been limited by the cost of professional setups. MoveBox
+              uses a depth sensing camera such as Microsoft Kinect V2 or Azure
+              Kinect to track a person's real life movement, and project that
+              information onto a digital avatar. For more information, feel free
+              to read the publication as linked on the 'research' tab of this
+              website.
+            </p>
+            <ListGroup className="listGroup" style={{ width: "70%" }}>
+              <ListGroup.Item variant="primary">
+                <strong>Tools used</strong>
+              </ListGroup.Item>
+              <ListGroup.Item action href="https://unity.com">
+                Unity (C#)
+              </ListGroup.Item>
+              <ListGroup.Item action href="https://www.overleaf.com/">
+                Overleaf
+              </ListGroup.Item>
+              <ListGroup.Item action href="https://developer.oculus.com/quest/">
+                Oculus Quest SDK
+              </ListGroup.Item>
+              <ListGroup.Item
+                action
+                href="https://developer.microsoft.com/en-us/windows/kinect/"
+              >
+                Microsoft Kinect SDK
+              </ListGroup.Item>
+            </ListGroup>
+            <h5 className="workterm">April 2020 - August 2020</h5>
+          </Col>
+        </Row>
         <Row className="expRow" style={{ marginTop: "100px" }}>
           <Col md={4}>
             <Image style={{ width: "90%" }} src={goc} alt="Image" rounded />
