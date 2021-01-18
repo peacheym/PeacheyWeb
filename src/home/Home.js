@@ -2,7 +2,7 @@ import React, { Component } from "react";
 // import FeaturedProjects from "../FeaturedProjects";
 import About from "./About";
 // import Contact from "./Contact";
-import { Jumbotron, Container, Button } from "react-bootstrap";
+import { Jumbotron, Container } from "react-bootstrap";
 import "../App.css";
 
 class Home extends Component {
@@ -15,9 +15,9 @@ class Home extends Component {
             <p>
               Fourth year Computer Science student from Dalhousie University!
             </p>
-            <Button className="btn-dark" href="#about">
+            {/* <Button className="btn-dark" href="#about">
               About Me
-            </Button>
+            </Button> */}
           </Container>
         </Jumbotron>
         <About />
