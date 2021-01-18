@@ -21,10 +21,10 @@ class Home extends Component {
           </Container>
         </Jumbotron>
         <About />
-        <FeaturedProjects />
+        {/* <FeaturedProjects />
         <br /> <br /> <br />
         <Contact />
-        <br /> <br /> <br />
+        <br /> <br /> <br /> */}
       </div>
     );
   }
