@@ -30,11 +30,13 @@ class Research extends Component {
           cases can be easily implemented with one structure. This work is
           currently ongoing, and this page will be updated as progress is made.
         </p>
-
         <h2 className="exph2">Selected Publications</h2>
         <Row>
           <p>
-            <a href="https://www.microsoft.com/en-us/research/publication/movebox-democratizing-mocap-for-the-microsoft-rocketbox-avatar-library/">
+            <a
+              color="black"
+              href="https://www.microsoft.com/en-us/research/publication/movebox-democratizing-mocap-for-the-microsoft-rocketbox-avatar-library/"
+            >
               Mar Gonzalez-Franco, Zelia Egan, <strong>Matthew Peachey</strong>,
               Angus Antley, Tanmay Randhavane, Payod Panda, Yaying Zhang, Cheng
               Yao Wang, Derek F. Reilly, Tabitha C Peck, Andrea Stevenson Won,
@@ -48,20 +50,25 @@ class Research extends Component {
             </a>
           </p>
         </Row>
+        <br></br>
         <Row>
           <p>
-            <a href="https://ieeexplore.ieee.org/document/9288424">
+            <a
+              color="black"
+              href="https://ieeexplore.ieee.org/document/9288424"
+            >
               Derek Reilly, Joseph Malloch, Abbey Singh, Issac Fresia, Shivam
-              Mahajan, Jake Moore and <strong>Matthew Peachey</strong>(2020)
+              Mahajan, Jake Moore and <strong>Matthew Peachey</strong> (2020)
               <i>“Using Space Syntax to Enable Walkable AR Experiences”</i>.
               IEEE International Symposium on Mixed and Augmented Reality
               (ISMAR)
             </a>
           </p>
         </Row>
+        <br></br>
         <Row>
           <p>
-            <a href="https://mattpeachey.ca/research">
+            <a color="black" href="https://mattpeachey.ca/research">
               Abbey Singh, Ramanpreet Kaur, Peter Haltner,{" "}
               <strong>Matthew Peachey</strong>, Mar Gonzalez-Franco, Joseph
               Malloch and Derek Reilly (2021){" "}
@@ -73,6 +80,10 @@ class Research extends Component {
             </a>
           </p>
         </Row>
+        <br></br>
+        <br></br>
+        <br></br>
+        <br></br>
       </Container>
     );
   }
