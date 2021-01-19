@@ -29,14 +29,7 @@ class Experience extends Component {
             </p>
             <p>
               I also had the pleasure of collaborating with the EPIC team from
-              Microsoft Research on their open-source project,{" "}
-              <a
-                padding="0px"
-                href="https://www.microsoft.com/en-us/research/publication/movebox-democratizing-mocap-for-the-microsoft-rocketbox-avatar-library/"
-              >
-                MoveBox
-              </a>
-              . MoveBox is a tool kit that aims to provide accessible motion
+              Microsoft Research on their open-source project, MoveBox. The MoveBox project is a tool kit that aims to provide accessible motion
               capture software for researchers and developers that may have
               otherwise been limited by the cost of professional setups. MoveBox
               uses a depth sensing camera such as Microsoft Kinect V2 or Azure
