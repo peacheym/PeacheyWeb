@@ -22,7 +22,7 @@ class About extends Component {
 
             <p>
               I have completed three Co-op placements where I worked both as a
-              software developer and also as a researcher in a Lab at Dalhousie.
+              software developer as well as a researcher in a Lab.
               Though each of these experiences differed in significant ways, I
               learned countless valuable lessons at each of them that have
               shaped the foundation of my computing knowledge and interests.
