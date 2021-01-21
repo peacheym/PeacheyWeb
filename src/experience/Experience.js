@@ -13,7 +13,7 @@ class Experience extends Component {
         <h1 className="exph1">Work Experience</h1>
         <Row className="expRow" style={{ marginTop: "150px" }}>
           <Col md={4}>
-            <Image style={{ width: "90%" }} src={gem} alt="Image" rounded />
+            <Image style={{ width: "60%" }} src={gem} alt="Image" rounded />
           </Col>
           <Col md>
             <h2>Undergraduate Research Assistant</h2>
@@ -63,7 +63,7 @@ class Experience extends Component {
         </Row>
         <Row className="expRow" style={{ marginTop: "100px" }}>
           <Col md={4}>
-            <Image style={{ width: "90%" }} src={goc} alt="Image" rounded />
+            <Image style={{ width: "60%" }} src={goc} alt="Image" rounded />
           </Col>
           <Col md>
             <h2>Cyber Developer (Co-op)</h2>
@@ -105,7 +105,7 @@ class Experience extends Component {
 
         <Row className="expRow">
           <Col md={4}>
-            <Image style={{ width: "90%" }} src={ultra} alt="Image" rounded />
+            <Image style={{ width: "60%" }} src={ultra} alt="Image" rounded />
           </Col>
           <Col md={8}>
             <h2>Software Developer (Co-op)</h2>
@@ -148,7 +148,7 @@ class Experience extends Component {
           <Col md={4}>
             <Image
               className="dalLogo"
-              style={{ width: "90%" }}
+              style={{ width: "60%" }}
               src={dal}
               alt="Image"
               rounded
