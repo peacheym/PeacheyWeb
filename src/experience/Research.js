@@ -96,7 +96,7 @@ class Research extends Component {
                 <strong>Matthew Peachey</strong>, Mar Gonzalez-Franco, Joseph
                 Malloch and Derek Reilly
               </Card.Text>
-              <Card.Link href="https://mattpeachey.ca/research">
+              <Card.Link href="https://mattpeachey.ca/research" disabled>
                 Paper accepted (Pre-Print)
               </Card.Link>
             </Card.Body>
