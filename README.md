@@ -1,10 +1,10 @@
-# PeacheyWeb
+# Peachey Web
 
-This repository contains the source code for my personal website which can be found at [mattpeachey.ca](http://mattpeachey.ca)!
+This repository contains the source code for my personal website which can be found at [mattpeachey.ca](http://mattpeachey.ca)! The goal of this site is to serve as both a portfolio of my work as a whole, as well as allow me to practice with modern web-development techniques.
 
 ## Author
 
-This project is built by me! Where to find me online:
+This project is built by me! You can find me online here:
 
 - [GitHub](github.com/peacheym)
 - [LinkedIn](linkedin.com/in/matt-peachey-02bb11152?originalSubdomain=ca)
