@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Container, Row } from "react-bootstrap";
+import { Container, Row, Card } from "react-bootstrap";
 import "../App.css";
 
 class Research extends Component {
@@ -36,50 +36,71 @@ class Research extends Component {
 
         <h2 className="exph2">Selected Publications</h2>
         <Row>
-          <h4>
-            <a href="https://www.microsoft.com/en-us/research/publication/movebox-democratizing-mocap-for-the-microsoft-rocketbox-avatar-library/">
-              MoveBox: Democratizing MoCap for the Microsoft Rocketbox Avatar
-              Library
-            </a>
-          </h4>
-          <p>
-            Mar Gonzalez-Franco, Zelia Egan, <strong>Matthew Peachey</strong>,
-            Angus Antley, Tanmay Randhavane, Payod Panda, Yaying Zhang, Cheng
-            Yao Wang, Derek F. Reilly, Tabitha C Peck, Andrea Stevenson Won,
-            Anthony Steed and Eyal Ofek.
-            <br></br>
-            2020 - IEEE International Conference on Artificial Intelligence and
-            Virtual Reality (AIVR)
-          </p>
+          <Card>
+            <Card.Body>
+              <Card.Title>
+                MoveBox: Democratizing MoCap for the Microsoft Rocketbox Avatar
+                Library
+              </Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">
+                2020 - IEEE International Conference on Artificial Intelligence
+                and Virtual Reality (AIVR)
+              </Card.Subtitle>
+              <Card.Text>
+                Mar Gonzalez-Franco, Zelia Egan,{" "}
+                <strong>Matthew Peachey</strong>, Angus Antley, Tanmay
+                Randhavane, Payod Panda, Yaying Zhang, Cheng Yao Wang, Derek F.
+                Reilly, Tabitha C Peck, Andrea Stevenson Won, Anthony Steed and
+                Eyal Ofek.
+              </Card.Text>
+              <Card.Link href="https://www.microsoft.com/en-us/research/publication/movebox-democratizing-mocap-for-the-microsoft-rocketbox-avatar-library/">
+                Link to paper
+              </Card.Link>
+            </Card.Body>
+          </Card>
         </Row>
 
         <Row>
-          <h4>
-            <a href="https://ieeexplore.ieee.org/document/9288424">
-              Using Space Syntax to Enable Walkable AR Experiences
-            </a>
-          </h4>
-          <p>
-            Derek Reilly, Joseph Malloch, Abbey Singh, Issac Fresia, Shivam
-            Mahajan, Jake Moore and <strong>Matthew Peachey</strong>
-            <br></br>
-            2020 - IEEE International Symposium on Mixed and Augmented Reality
-            (ISMAR)
-          </p>
+          <Card>
+            <Card.Body>
+              <Card.Title>
+                Using Space Syntax to Enable Walkable AR Experiences
+              </Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">
+                2020 - IEEE International Symposium on Mixed and Augmented
+                Reality (ISMAR)
+              </Card.Subtitle>
+              <Card.Text>
+                Derek Reilly, Joseph Malloch, Abbey Singh, Issac Fresia, Shivam
+                Mahajan, Jake Moore and <strong>Matthew Peachey</strong>
+              </Card.Text>
+              <Card.Link href="https://ieeexplore.ieee.org/document/9288424">
+                Link to paper
+              </Card.Link>
+            </Card.Body>
+          </Card>
         </Row>
 
         <Row>
-          <h4>
-            <a href="https://mattpeachey.ca/research">
-              Story CreatAR: a Toolkit for Spatially-Adaptive AR Storytelling
-            </a>
-          </h4>
-          <p>
-            Abbey Singh, Ramanpreet Kaur, Peter Haltner,{" "}
-            <strong>Matthew Peachey</strong>, Mar Gonzalez-Franco, Joseph
-            Malloch and Derek Reilly
-            <br></br>2021 - IEEE Virtual Reality
-          </p>
+          <Card>
+            <Card.Body>
+              <Card.Title>
+                Story CreatAR: a Toolkit for Spatially-Adaptive AR Storytelling{" "}
+              </Card.Title>
+              <Card.Subtitle className="mb-2 text-muted">
+                2020 - IEEE International Symposium on Mixed and Augmented
+                Reality (ISMAR)
+              </Card.Subtitle>
+              <Card.Text>
+                Abbey Singh, Ramanpreet Kaur, Peter Haltner,{" "}
+                <strong>Matthew Peachey</strong>, Mar Gonzalez-Franco, Joseph
+                Malloch and Derek Reilly
+              </Card.Text>
+              <Card.Link href="https://mattpeachey.ca/research">
+                Paper accepted (Pre-Print)
+              </Card.Link>
+            </Card.Body>
+          </Card>
         </Row>
         <br></br>
         <br></br>

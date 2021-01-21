@@ -16,7 +16,7 @@ class Volunteer extends Component {
           <Col md={4}>
             <Image
               className="dalLogo"
-              style={{ width: "60%" }}
+              style={{ width: "60%", margin: "auto auto" }}
               src={dal}
               alt="Image"
               rounded
@@ -68,7 +68,7 @@ class Volunteer extends Component {
           <Col md={4}>
             <Image
               className="funsportsLogo"
-              style={{ width: "60%" }}
+              style={{ width: "60%", margin: "auto auto" }}
               src={funsports}
               alt="Image"
               rounded
@@ -108,7 +108,7 @@ class Volunteer extends Component {
           <Col md={4}>
             <Image
               className="dalLogo"
-              style={{ width: "60%" }}
+              style={{ width: "60%", margin: "auto auto" }}
               src={dal}
               alt="Image"
               rounded
