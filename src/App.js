@@ -10,6 +10,7 @@ import Footer from "./Footer";
 
 import "./App.css";
 import Research from "./experience/Research";
+import Volunteer from "./experience/Volunteer";
 
 function App() {
   return (
@@ -28,6 +29,9 @@ function App() {
           </Route>
           <Route path="/research">
             <Research />
+          </Route>
+          <Route path="/volunteer">
+            <Volunteer />
           </Route>
         </Switch>
       </Router>
