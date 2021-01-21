@@ -33,10 +33,12 @@ class Research extends Component {
         <p>
           Please see below for links to publications that I have contributed to.
         </p>
-        <h2 className="exph2">Selected Publications</h2>
+        <h2 style="margin-top:100px" className="exph2">
+          Selected Publications
+        </h2>
         <Row>
           <Col>
-            <Card>
+            <Card border="secondary">
               <Card.Body>
                 <Card.Title>
                   MoveBox: Democratizing MoCap for the Microsoft Rocketbox
@@ -47,7 +49,7 @@ class Research extends Component {
                   Intelligence and Virtual Reality (AIVR)
                 </Card.Subtitle>
                 <Card.Text>
-                  Mar Gonzalez-Franco, Zelia Egan,
+                  Mar Gonzalez-Franco, Zelia Egan,{" "}
                   <strong>Matthew Peachey</strong>, Angus Antley, Tanmay
                   Randhavane, Payod Panda, Yaying Zhang, Cheng Yao Wang, Derek
                   F. Reilly, Tabitha C Peck, Andrea Stevenson Won, Anthony Steed
@@ -63,7 +65,7 @@ class Research extends Component {
         <br></br> <br></br>
         <Row>
           <Col>
-            <Card>
+            <Card border="secondary">
               <Card.Body>
                 <Card.Title>
                   Using Space Syntax to Enable Walkable AR Experiences
@@ -87,7 +89,7 @@ class Research extends Component {
         <br></br> <br></br>
         <Row>
           <Col>
-            <Card>
+            <Card border="secondary">
               <Card.Body>
                 <Card.Title>
                   Story CreatAR: a Toolkit for Spatially-Adaptive AR
@@ -98,7 +100,7 @@ class Research extends Component {
                   Reality (ISMAR)
                 </Card.Subtitle>
                 <Card.Text>
-                  Abbey Singh, Ramanpreet Kaur, Peter Haltner,
+                  Abbey Singh, Ramanpreet Kaur, Peter Haltner,{" "}
                   <strong>Matthew Peachey</strong>, Mar Gonzalez-Franco, Joseph
                   Malloch and Derek Reilly
                 </Card.Text>
