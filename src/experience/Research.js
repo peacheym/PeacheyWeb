@@ -33,7 +33,7 @@ class Research extends Component {
         <p>
           Please see below for links to publications that I have contributed to.
         </p>
-        <h2 style={{"margin-top:100px"}} className="exph2">
+        <h2 className="exph2">
           Selected Publications
         </h2>
         <Row>
