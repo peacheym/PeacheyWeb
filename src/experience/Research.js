@@ -33,9 +33,7 @@ class Research extends Component {
         <p>
           Please see below for links to publications that I have contributed to.
         </p>
-        <h2 className="exph2">
-          Selected Publications
-        </h2>
+        <h2 className="exph2">Selected Publications</h2>
         <Row>
           <Col>
             <Card border="secondary">
@@ -104,7 +102,7 @@ class Research extends Component {
                   <strong>Matthew Peachey</strong>, Mar Gonzalez-Franco, Joseph
                   Malloch and Derek Reilly
                 </Card.Text>
-                <Card.Link href="https://mattpeachey.ca/research" disabled>
+                <Card.Link href="http://ieeevr.org/2021/">
                   Paper accepted (Pre-Print)
                 </Card.Link>
               </Card.Body>
