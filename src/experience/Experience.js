@@ -12,7 +12,7 @@ class Experience extends Component {
     return (
       <Container>
         <h1 className="exph1">Work Experience</h1>
-        <Row className="expRow" style={{ marginTop: "100px" }}>
+        <Row className="expRow" style={{ marginTop: "150px" }}>
           <Col md={4}>
             <Image style={{ width: "90%" }} src={gem} alt="Image" rounded />
           </Col>
@@ -29,14 +29,15 @@ class Experience extends Component {
             </p>
             <p>
               I also had the pleasure of collaborating with the EPIC team from
-              Microsoft Research on their open-source project, MoveBox. The MoveBox project is a tool kit that aims to provide accessible motion
-              capture software for researchers and developers that may have
-              otherwise been limited by the cost of professional setups. MoveBox
-              uses a depth sensing camera such as Microsoft Kinect V2 or Azure
-              Kinect to track a person's real life movement, and project that
-              information onto a digital avatar. For more information, feel free
-              to read the publication as linked on the 'research' tab of this
-              website.
+              Microsoft Research on their open-source project, MoveBox. The
+              MoveBox project is a tool kit that aims to provide accessible
+              motion capture software for researchers and developers that may
+              have otherwise been limited by the cost of professional setups.
+              MoveBox uses a depth sensing camera such as Microsoft Kinect V2 or
+              Azure Kinect to track a person's real life movement, and project
+              that information onto a digital avatar. For more information, feel
+              free to read the publication as linked on the 'research' tab of
+              this website.
             </p>
             <ListGroup className="listGroup" style={{ width: "70%" }}>
               <ListGroup.Item variant="primary">
@@ -177,114 +178,6 @@ class Experience extends Component {
             </p>
 
             <h5 className="workterm">September 2018 - December 2019</h5>
-          </Col>
-        </Row>
-        <hr style={{ width: "60%", marginBottom: "100px" }} />
-        <h1 className="exph1" style={{ marginTop: "150px" }}>
-          Volunteer Experience
-        </h1>
-
-        <Row className="expRow">
-          <Col md={4}>
-            <Image
-              className="dalLogo"
-              style={{ width: "90%" }}
-              src={dal}
-              alt="Image"
-              rounded
-            />
-          </Col>
-          <Col md={8}>
-            <h2>Web Developer</h2>
-            <h3 className="employer">Dalhousie Faculty of Health</h3>
-            <p>
-              In September of 2020, as a response to the Covid19 pandemic, I
-              created a dynamic web-application for the Faculty of Health that
-              allowed them to streamline their contact tracing process. The
-              web-app allowed students to confidentially fill out a
-              questionnaire and once completed, the application would notify
-              them wether or not they were permitted to enter the in-person
-              session. Instructors were able to login to a secure section of the
-              web-app and download a .csv file for each of their classes on a
-              given day in the event that an exposure had occurred.
-            </p>
-            <p>
-              Since the initial deployment of this web-app, the Faculty of
-              Health to maintain and update the application as their needs
-              evolve.
-            </p>
-
-            <h5 className="workterm">September 2020 - Present</h5>
-          </Col>
-        </Row>
-
-        <Row className="expRow">
-          <Col md={4}>
-            <Image
-              className="funsportsLogo"
-              style={{ width: "90%" }}
-              src={funsports}
-              alt="Image"
-              rounded
-            />
-          </Col>
-          <Col md={8}>
-            <h2>Web Developer</h2>
-            <h3 className="employer">FUNSports</h3>
-            <p>
-              In April 2019, I created a website for a new non-profit
-              organization called FUNSports. The website&lsquo;s goal is to be a
-              page filled with information about the new but growing
-              organization. For the remainer of 2019, I continued to work with
-              the organization to ensure that their website meet their needs and
-              desires.
-            </p>
-            <p>
-              FUNSports goal is to provide access to sports for kids who
-              otherwise may not have the oppertunity. Many organizations already
-              provide access to summer camps or other short-term programs, but
-              FUNSports aims to help kids pursue full time athletic careers.
-              This means that kids who are high achieving athletes but do not
-              have the necessary finacial support will not be forced to give up
-              their dreams of competing at the highest levels.
-            </p>
-            <p>
-              If FUNSports sounds like an organization that you would like to
-              support, please visit their website:
-              <a href="http://funsports.fun">funsports.fun</a>
-            </p>
-
-            <h5 className="workterm">April 2019 - December 2019</h5>
-          </Col>
-        </Row>
-        <hr style={{ width: "60%", marginBottom: "100px" }} />
-        <Row className="expRow">
-          <Col md={4}>
-            <Image
-              className="dalLogo"
-              style={{ width: "90%" }}
-              src={dal}
-              alt="Image"
-              rounded
-            />
-          </Col>
-          <Col md={8}>
-            <h2>WiTS Peer Mentor</h2>
-            <h3 className="employer">Dalhousie University</h3>
-            <p>
-              In September 2018, Dalhousie&lsquo;s Women in Technology Society
-              launched their peer mentorship program. I was eager to be involved
-              as I understand the value of supporting women who are new to the
-              technology field.
-            </p>
-            <p>
-              I acted as a peer mentor for two female students coming to
-              Dalhousie for their first year of computer science. I offered
-              connections and resources to my mentees to help make their first
-              year as effective and useful as possible.
-            </p>
-
-            <h5 className="workterm">September 2018 - April 2019</h5>
           </Col>
         </Row>
         <hr style={{ width: "60%", marginBottom: "100px" }} />
