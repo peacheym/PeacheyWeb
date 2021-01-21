@@ -32,22 +32,21 @@ class Research extends Component {
         </p>
         <h2 className="exph2">Selected Publications</h2>
         <Row>
-          <p>
-            <a
-              color="black"
-              href="https://www.microsoft.com/en-us/research/publication/movebox-democratizing-mocap-for-the-microsoft-rocketbox-avatar-library/"
-            >
-              Mar Gonzalez-Franco, Zelia Egan, <strong>Matthew Peachey</strong>,
-              Angus Antley, Tanmay Randhavane, Payod Panda, Yaying Zhang, Cheng
-              Yao Wang, Derek F. Reilly, Tabitha C Peck, Andrea Stevenson Won,
-              Anthony Steed and Eyal Ofek (2020){" "}
-              <i>
-                "MoveBox: Democratizing MoCap for the Microsoft Rocketbox Avatar
-                Library"
-              </i>
-              . IEEE International Conference on Artificial Intelligence and
-              Virtual Reality (AIVR)
+          <h3>
+            <a href="https://www.microsoft.com/en-us/research/publication/movebox-democratizing-mocap-for-the-microsoft-rocketbox-avatar-library/">
+              MoveBox: Democratizing MoCap for the Microsoft Rocketbox Avatar
+              Library
             </a>
+          </h3>
+          <p>
+            Mar Gonzalez-Franco, Zelia Egan, <strong>Matthew Peachey</strong>,
+            Angus Antley, Tanmay Randhavane, Payod Panda, Yaying Zhang, Cheng
+            Yao Wang, Derek F. Reilly, Tabitha C Peck, Andrea Stevenson Won,
+            Anthony Steed and Eyal Ofek.
+          </p>
+          <p>
+            2020 - IEEE International Conference on Artificial Intelligence and
+            Virtual Reality (AIVR)
           </p>
         </Row>
         <br></br>
