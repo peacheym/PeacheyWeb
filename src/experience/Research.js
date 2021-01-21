@@ -94,8 +94,7 @@ class Research extends Component {
                   Storytelling
                 </Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">
-                  2020 - IEEE International Symposium on Mixed and Augmented
-                  Reality (ISMAR)
+                  2021 - IEEE Virtual Reality
                 </Card.Subtitle>
                 <Card.Text>
                   Abbey Singh, Ramanpreet Kaur, Peter Haltner,{" "}
