@@ -9,9 +9,6 @@ const gqlResolvers = require("./resolvers");
 var app = express();
 app.use(cors());
 
-// Serve the static files from the React app
-app.use(express.static(path.join(__dirname, "frontend/build")));
-
 app.use(
   "/graphql",
   graphqlHTTP({
@@ -20,6 +17,9 @@ app.use(
     graphiql: true,
   })
 );
+
+// Serve the static files from the React app
+app.use(express.static(path.join(__dirname, "frontend/build")));
 
 // Handles any requests that don't match the ones above
 app.get("*", (req, res) => {
