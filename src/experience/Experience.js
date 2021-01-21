@@ -4,7 +4,6 @@ import "../App.css";
 import goc from "./goc.png";
 import ultra from "./ultra.png";
 import dal from "./dal.jpg";
-import funsports from "./funsports.png";
 import gem from "./gem.png";
 
 class Experience extends Component {
