@@ -8,11 +8,15 @@ class Research extends Component {
       <Container>
         <h1 className="exph1">Research Experience</h1>
         <p>
-          Thanks to my interest in graduate studies following the completion of
-          my Bachelor of Computer Science, I have actively pursued research
-          opportunities during my undergraduate degree. I have been fortunate
-          enough to work with the GEM Lab since early 2020, and have contributed
-          to several exciting projects in that time.
+          Thanks to my interest in academic research, I have long aspired to
+          pursue graduate studies following the completion of my Bachelor of
+          Computer Science degree. In order to gain experience as an independent
+          researcher, I have actively pursued research opportunities during my
+          undergraduate degree. I have been fortunate enough to work with the
+          GEM Lab as both a URSA recipient as well as an honours student. I have
+          been working with various teams at GEM Lab since early 2020, and have
+          contributed to several exciting and multi-disciplinary projects in
+          that time.
         </p>
         <p>
           I am currently working under the supervision of{" "}
@@ -22,13 +26,13 @@ class Research extends Component {
           >
             Dr. Joseph Malloch
           </a>{" "}
-          towards the completion of my undergraduate honours thesis. For this
-          project, we are exploring hand-tracking technologies and how to best
-          represent the data they produce. We are not looking for a singular
-          best way, but rather looking to represent the data in such a manner
-          that as many use cases can be easily implemented with one structure.
-          This work is currently ongoing, and this page will be updated as
-          progress is made.
+          towards the completion of an undergraduate honours thesis. For this
+          project, we are exploring computer vision based hand-tracking
+          technologies and how to best represent the data they produce. We are
+          not looking for a singular best way, but rather looking to represent
+          the data in such a manner that as many use cases can be easily
+          implemented with one structure. This work is currently ongoing, and
+          this page will be updated appropriately as progress is made.
         </p>
         <p>
           Please see below for links to publications that I have contributed to.

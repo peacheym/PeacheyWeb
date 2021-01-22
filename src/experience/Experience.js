@@ -11,7 +11,7 @@ class Experience extends Component {
     return (
       <Container>
         <h1 className="exph1">Work Experience</h1>
-        <Row className="expRow" style={{ marginTop: "150px" }}>
+        <Row className="expRow" style={{ marginBottom: "50px" }}>
           <Col md={4}>
             <Image
               style={{ width: "60%", margin: "auto auto" }}

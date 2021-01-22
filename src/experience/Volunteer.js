@@ -8,7 +8,7 @@ class Volunteer extends Component {
   render() {
     return (
       <Container>
-        <h1 className="exph1" style={{ marginTop: "150px" }}>
+        <h1 className="exph1" style={{ marginBottom: "50px" }}>
           Volunteer Experience
         </h1>
 
