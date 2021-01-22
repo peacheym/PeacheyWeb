@@ -66,6 +66,7 @@ class Experience extends Component {
             <h5 className="workterm">April 2020 - August 2020</h5>
           </Col>
         </Row>
+        <hr style={{ width: "60%", marginBottom: "100px" }} />
         <Row className="expRow" style={{ marginTop: "100px" }}>
           <Col md={4}>
             <Image
@@ -110,9 +111,7 @@ class Experience extends Component {
             <h5 className="workterm">January 2020 - August 2020</h5>
           </Col>
         </Row>
-
         <hr style={{ width: "60%", marginBottom: "100px" }} />
-
         <Row className="expRow">
           <Col md={4}>
             <Image
@@ -156,9 +155,7 @@ class Experience extends Component {
             <h5 className="workterm">May 2019 - August 2019</h5>
           </Col>
         </Row>
-
         <hr style={{ width: "60%", marginBottom: "100px" }} />
-
         <Row className="expRow">
           <Col md={4}>
             <Image

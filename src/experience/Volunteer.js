@@ -63,6 +63,7 @@ class Volunteer extends Component {
             <h5 className="workterm">September 2020 - Present</h5>
           </Col>
         </Row>
+        <hr style={{ width: "60%", marginBottom: "100px" }} />
 
         <Row className="expRow">
           <Col md={4}>

@@ -1,102 +1,101 @@
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
 .App {
   text-align: center;
-  font-family: 'Ubuntu', ;
+  font-family: "Ubuntu";
 }
 
 .jt {
-    padding-top: 125px;
-    padding-bottom: 125px;
+  padding-top: 125px;
+  padding-bottom: 125px;
 }
 
 .App-link {
-    color: #61dafb;
-    display: inline;
+  color: #61dafb;
+  display: inline;
 }
 
-.fp{
-    margin-top: 150px;
-    margin-bottom: 30px;
+.fp {
+  margin-top: 150px;
+  margin-bottom: 30px;
 }
 
-.fpcard{
-	display:flex;
-	justify-content: center;
-	margin-top:25px;
+.fpcard {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
 }
 
 .about {
-
-    padding-top: 60px;
-    margin-bottom: 100px;
+  padding-top: 60px;
+  margin-bottom: 100px;
 }
 
-.about h2{
-    margin-top: 25px;
+.about h2 {
+  margin-top: 25px;
 }
 
-.headshot{
-    max-width: 80%;
+.headshot {
+  max-width: 80%;
 }
 
-.expRow{
-    margin-top:50px;
-    margin-bottom:100px;
+.expRow {
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
-.expRow *{
-	padding: 0px 10px;
-}
-
-.exph1{
-    margin-top: 75px;
-    margin-bottom:75px;
-    font-size: 3em;
+.expRow * {
+  padding: 0px 10px;
 }
 
-.exph2{
-    margin-top: 125px;
-    margin-bottom:50px;
-    font-size: 1.7em;
+.exph1 {
+  margin-top: 75px;
+  margin-bottom: 75px;
+  font-size: 3em;
 }
 
-.listGroup{
-	margin: 15px auto;
+.exph2 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 1.7em;
 }
 
-.employer{
-	color: red;
-	margin-bottom:25px;
+.listGroup {
+  margin: 15px auto;
 }
 
-.workterm{
-	color: red;
-	margin-top: 25px;
+.employer {
+  color: red;
+  margin-bottom: 25px;
 }
 
-.dalLogo{
-margin-top:70px;
-margin-bottom:70px;
+.workterm {
+  color: red;
+  margin-top: 25px;
 }
 
-.funsportsLogo{
-margin-top:80px;
-margin-bottom:70px;
-}
-.contact{
-width:60%;
-margin: 0px auto;
+.dalLogo {
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
 
-#filler{
-    margin-top: 150px;
-    min-height: 500px;
+.funsportsLogo {
+  margin-top: 80px;
+  margin-bottom: 70px;
+}
+.contact {
+  width: 60%;
+  margin: 0px auto;
 }
 
-footer{
-    background-color: #CCD8E5;
-    font-weight: bold;
-    padding:20px;
+#filler {
+  margin-top: 150px;
+  min-height: 500px;
+}
+
+footer {
+  background-color: #ccd8e5;
+  font-weight: bold;
+  padding: 20px;
 }
