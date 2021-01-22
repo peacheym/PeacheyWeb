@@ -13,7 +13,7 @@ class Research extends Component {
           Computer Science degree. In order to gain experience as an independent
           researcher, I have actively pursued research opportunities during my
           undergraduate degree. I have been fortunate enough to work with the
-          GEM Lab as both a URSA recipient as well as an honours student. I have
+          GEM Lab as both a USRA recipient as well as an honours student. I have
           been working with various teams at GEM Lab since early 2020, and have
           contributed to several exciting and multi-disciplinary projects in
           that time.
