@@ -50,9 +50,8 @@ html {
 }
 
 .exph1 {
-
   font-size: 3em;
-  margin-bottom: 150px;
+  margin-bottom: 20px;
 }
 
 .researchH1 {
@@ -68,16 +67,33 @@ html {
 }
 
 .listGroup {
-  margin: 15px auto;
+  margin: 40px auto;
+  width: 70%;
 }
 
 .employer {
-  color: red;
+  color: #4b6cb7;
   margin-bottom: 25px;
 }
 
+.color-nav {
+  background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white !important;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover{
+  color: rgb(141, 128, 199) !important;
+
+}
+
 .workterm {
-  color: red;
+  color: #4b6cb7;
   margin-top: 25px;
 }
 
@@ -98,9 +114,11 @@ footer {
   margin-top: 100px;
 }
 
-.jumbotron-g, .grad{
+.jumbotron-g,
+.grad-header {
   background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
+  margin-bottom: 150px;
   color: white !important;
 }

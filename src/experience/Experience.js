@@ -1,35 +1,25 @@
 import React from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Image,
-  ListGroup,
-  Jumbotron,
-} from "react-bootstrap";
+import { Container, Row, Col, ListGroup, Jumbotron } from "react-bootstrap";
 import "../App.css";
-import goc from "./goc.png";
-import ultra from "./ultra.png";
-import dal from "./dal.jpg";
-import gem from "./gem.png";
 
 export default function Experience() {
   return (
     <>
-      <Jumbotron fluid className="grad exph1">
-        <h1>Work Experience</h1>
+      <Jumbotron fluid className="grad-header">
+        <h1 className="exph1">Work Experience</h1>
+        <Container>
+          <p>
+            Thanks to participating in the Co-Op program as part of my
+            undergraduate degree, I have had several great opportunities to work
+            in the software development industry. I have also worked as a
+            researcher and a teaching assistant.
+          </p>
+          <p> A list of my most recent employers can be found below.</p>
+        </Container>
       </Jumbotron>
       <Container>
         <Row className="expRow" style={{ marginBottom: "50px" }}>
-          <Col md={4}>
-            <Image
-              style={{ width: "60%", margin: "auto auto" }}
-              src={gem}
-              alt="Image"
-              rounded
-            />
-          </Col>
-          <Col md>
+          <Col>
             <h2>Undergraduate Research Assistant</h2>
             <h3 className="employer">GEM Lab</h3>
             <p>
@@ -52,7 +42,7 @@ export default function Experience() {
               free to read the publication as linked on the 'research' tab of
               this website.
             </p>
-            <ListGroup className="listGroup" style={{ width: "70%" }}>
+            <ListGroup className="listGroup">
               <ListGroup.Item variant="primary">
                 <strong>Tools used</strong>
               </ListGroup.Item>
@@ -77,15 +67,7 @@ export default function Experience() {
         </Row>
         <hr style={{ width: "60%", marginBottom: "100px" }} />
         <Row className="expRow" style={{ marginTop: "100px" }}>
-          <Col md={4}>
-            <Image
-              style={{ width: "60%", margin: "auto auto" }}
-              src={goc}
-              alt="Image"
-              rounded
-            />
-          </Col>
-          <Col md>
+          <Col>
             <h2>Cyber Developer (Co-op)</h2>
             <h3 className="employer">Government of Canada</h3>
             <p>
@@ -122,15 +104,7 @@ export default function Experience() {
         </Row>
         <hr style={{ width: "60%", marginBottom: "100px" }} />
         <Row className="expRow">
-          <Col md={4}>
-            <Image
-              style={{ width: "60%", margin: "auto auto" }}
-              src={ultra}
-              alt="Image"
-              rounded
-            />
-          </Col>
-          <Col md={8}>
+          <Col>
             <h2>Software Developer (Co-op)</h2>
             <h3 className="employer">Ultra Electronics Maratime Systems</h3>
             <p>
@@ -166,16 +140,7 @@ export default function Experience() {
         </Row>
         <hr style={{ width: "60%", marginBottom: "100px" }} />
         <Row className="expRow">
-          <Col md={4}>
-            <Image
-              className="dalLogo"
-              style={{ width: "60%", margin: "auto auto" }}
-              src={dal}
-              alt="Image"
-              rounded
-            />
-          </Col>
-          <Col md={8}>
+          <Col>
             <h2>Teaching Assistant</h2>
             <h3 className="employer">Dalhousie University</h3>
             <p>

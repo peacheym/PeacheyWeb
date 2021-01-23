@@ -1,35 +1,26 @@
 import React, { Component } from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Image,
-  ListGroup,
-  Jumbotron,
-} from "react-bootstrap";
+import { Container, Row, Col, ListGroup, Jumbotron } from "react-bootstrap";
 import "../App.css";
-import dal from "./dal.jpg";
-import funsports from "./funsports.png";
 
 class Volunteer extends Component {
   render() {
     return (
       <>
-        <Jumbotron fluid className="grad exph1">
-          <h1>Volunteer Experience</h1>
+        <Jumbotron fluid className="grad-header">
+          <Container>
+            <h1 className="exph1">Volunteer Experience</h1>
+            <p>
+              I have had the opportunity to volunteer with several organizations
+              on several different projects.
+            </p>
+            <p>
+              A list of the most recent volunteer positions can be found below.
+            </p>
+          </Container>
         </Jumbotron>
         <Container>
           <Row className="expRow">
-            <Col md={4}>
-              <Image
-                className="dalLogo"
-                style={{ width: "60%" }}
-                src={dal}
-                alt="Image"
-                rounded
-              />
-            </Col>
-            <Col md={8}>
+            <Col>
               <h2>Web Developer</h2>
               <h3 className="employer">Dalhousie Faculty of Health</h3>
               <p>
@@ -73,16 +64,7 @@ class Volunteer extends Component {
           <hr style={{ width: "60%", marginBottom: "100px" }} />
 
           <Row className="expRow">
-            <Col md={4}>
-              <Image
-                className="funsportsLogo"
-                style={{ width: "60%", margin: "auto auto" }}
-                src={funsports}
-                alt="Image"
-                rounded
-              />
-            </Col>
-            <Col md={8}>
+            <Col>
               <h2>Web Developer</h2>
               <h3 className="employer">FUNSports</h3>
               <p>
@@ -114,16 +96,7 @@ class Volunteer extends Component {
           </Row>
           <hr style={{ width: "60%", marginBottom: "100px" }} />
           <Row className="expRow">
-            <Col md={4}>
-              <Image
-                className="dalLogo"
-                style={{ width: "60%", margin: "auto auto" }}
-                src={dal}
-                alt="Image"
-                rounded
-              />
-            </Col>
-            <Col md={8}>
+            <Col>
               <h2>WiTS Peer Mentor</h2>
               <h3 className="employer">Dalhousie University</h3>
               <p>
