@@ -1,34 +1,46 @@
-import React, { Component } from 'react';
-import {Container, Button, Form} from 'react-bootstrap';
-import '../App.css';
+import React from "react";
+import { Container, ListGroup } from "react-bootstrap";
+import { FiLinkedin, FiTwitter, FiGithub, FiMail } from "react-icons/fi";
+import "../App.css";
 
-
-class Contact extends Component {
-  render() {
-      return <Container>
-	<h2>Contact me!</h2>
-	<br/>	
-	<Form className="contact">
-	  <Form.Group controlId="exampleForm.ControlInput1">
-	    <Form.Label>Email address</Form.Label>
-	    <Form.Control type="email" placeholder="name@example.com" />
-	  </Form.Group>
-	  <Form.Group controlId="exampleForm.ControlSelect1">
-	    <Form.Label>Reason for email</Form.Label>
-	    <Form.Control as="select">
-	      <option>Cool Ideas</option>
-	      <option>Coffee</option>
-	      <option>Random</option>
-	      <option>Other</option>
-	    </Form.Control>
-	  </Form.Group>
-	  <Form.Group controlId="exampleForm.ControlTextarea1">
-	    <Form.Label>Message</Form.Label>
-	    <Form.Control as="textarea" rows="3" />
-	  </Form.Group>
-	</Form>
-	<Button onClick={()=>{alert("Email form currently under construction. Please contact me at peacheym@dal.ca")}}>Send Message</Button>
-      </Container>
-  }
+export default function Contact() {
+  return (
+    <Container>
+      <p>You can find me on the following platforms</p>
+      <ListGroup horizontal as="ul" style={{ justifyContent: "center" }}>
+        <ListGroup.Item as="li">
+          <a
+            href="https://github.com/peacheym"
+            style={{ color: "black", fontSize: "20px", padding: "10px" }}
+          >
+            <FiGithub />
+          </a>
+        </ListGroup.Item>
+        <ListGroup.Item as="li">
+          <a
+            href="https://www.linkedin.com/in/matt-peachey-02bb11152"
+            style={{ color: "black", fontSize: "20px", padding: "10px" }}
+          >
+            <FiLinkedin />
+          </a>
+        </ListGroup.Item>
+        <ListGroup.Item as="li">
+          <a
+            href="https://twitter.com/mattpeachey3"
+            style={{ color: "black", fontSize: "20px", padding: "10px" }}
+          >
+            <FiTwitter />
+          </a>
+        </ListGroup.Item>
+        <ListGroup.Item as="li">
+          <a
+            href="mailto://peacheym@dal.ca"
+            style={{ color: "black", fontSize: "20px", padding: "10px" }}
+          >
+            <FiMail />
+          </a>
+        </ListGroup.Item>
+      </ListGroup>
+    </Container>
+  );
 }
-export default Contact;
