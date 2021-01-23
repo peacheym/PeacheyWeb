@@ -38,7 +38,7 @@ html {
 }
 
 .headshot {
-  max-width: 80%;
+  max-width: 85%;
 }
 
 .expRow {
@@ -57,8 +57,8 @@ html {
 
 .exph2 {
   margin-top: 100px;
-  margin-bottom: 20px;
-  font-size: 2em;
+  margin-bottom: 30px;
+  font-size: 2.2em;
 }
 
 .listGroup {
@@ -96,6 +96,6 @@ html {
 
 footer {
   background-color: #ccd8e5;
-  font-weight: bold;
+  font-size: 1.2rem;
   padding: 20px;
 }
