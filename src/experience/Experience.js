@@ -1,16 +1,25 @@
-import React, { Component } from "react";
-import { Container, Row, Col, Image, ListGroup } from "react-bootstrap";
+import React from "react";
+import {
+  Container,
+  Row,
+  Col,
+  Image,
+  ListGroup,
+  Jumbotron,
+} from "react-bootstrap";
 import "../App.css";
 import goc from "./goc.png";
 import ultra from "./ultra.png";
 import dal from "./dal.jpg";
 import gem from "./gem.png";
 
-class Experience extends Component {
-  render() {
-    return (
+export default function Experience() {
+  return (
+    <>
+      <Jumbotron fluid className="grad exph1">
+        <h1>Work Experience</h1>
+      </Jumbotron>
       <Container>
-        <h1 className="exph1">Work Experience</h1>
         <Row className="expRow" style={{ marginBottom: "50px" }}>
           <Col md={4}>
             <Image
@@ -193,7 +202,6 @@ class Experience extends Component {
         </Row>
         <hr style={{ width: "60%", marginBottom: "100px" }} />
       </Container>
-    );
-  }
+    </>
+  );
 }
-export default Experience; // Don’t forget to use export default!
