@@ -5,7 +5,7 @@ import "../App.css";
 export default function Research() {
   return (
     <>
-      <Container className="research-jumbo grad" fluid>
+      <Container className="research-jumbo grad-header" fluid>
         <Container>
           <h1 className="researchH1">Research Experience</h1>
           <p>
