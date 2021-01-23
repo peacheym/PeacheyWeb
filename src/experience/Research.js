@@ -40,7 +40,7 @@ class Research extends Component {
         <h2 className="exph2">Selected Publications</h2>
         <Row>
           <Col>
-            <Card border="secondary">
+            <Card style={{ border: "none" }}>
               <Card.Body>
                 <Card.Title>
                   MoveBox: Democratizing MoCap for the Microsoft Rocketbox
@@ -64,10 +64,10 @@ class Research extends Component {
             </Card>
           </Col>
         </Row>
-        <br></br> <br></br>
+        <hr style={{ width: "60%", marginTop: "30px", marginBottom: "50px" }} />
         <Row>
           <Col>
-            <Card border="secondary">
+            <Card style={{ border: "none" }}>
               <Card.Body>
                 <Card.Title>
                   Using Space Syntax to Enable Walkable AR Experiences
@@ -88,10 +88,10 @@ class Research extends Component {
             </Card>
           </Col>
         </Row>
-        <br></br> <br></br>
+        <hr style={{ width: "60%", marginTop: "30px", marginBottom: "50px" }} />
         <Row>
           <Col>
-            <Card border="secondary">
+            <Card style={{ border: "none" }}>
               <Card.Body>
                 <Card.Title>
                   Story CreatAR: a Toolkit for Spatially-Adaptive AR
