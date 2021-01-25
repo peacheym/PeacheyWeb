@@ -9,7 +9,7 @@ import Experience from "./experience/Experience";
 import Footer from "./Footer";
 
 import "./App.css";
-import Research from "./experience/Research";
+import Research from "./research/Research";
 import Volunteer from "./experience/Volunteer";
 
 function App() {
