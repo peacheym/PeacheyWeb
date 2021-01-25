@@ -56,7 +56,7 @@ export default function Research() {
           title="MoveBox: Democratizing MoCap for the Microsoft Rocketbox
           Avatar Library"
           venue="2020 - IEEE International Conference on Artificial
-          Intelligence and Virtual Reality (AIVR))"
+          Intelligence and Virtual Reality (AIVR)"
           authors="Mar Gonzalez-Franco, Zelia Egan, Matthew Peachey, Angus Antley, Tanmay
           Randhavane, Payod Panda, Yaying Zhang, Cheng Yao Wang, Derek
           F. Reilly, Tabitha C Peck, Andrea Stevenson Won, Anthony Steed

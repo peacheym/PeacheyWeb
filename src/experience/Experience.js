@@ -39,8 +39,11 @@ export default function Experience() {
               MoveBox uses a depth sensing camera such as Microsoft Kinect V2 or
               Azure Kinect to track a person's real life movement, and project
               that information onto a digital avatar. For more information, feel
-              free to read the publication as linked on the 'research' tab of
-              this website.
+              free to read the publication as linked on the{" "}
+              <a padding="0px !important" margin="0px" href="/research">
+                research
+              </a>{" "}
+              tab of this website.
             </p>
             <ListGroup className="listGroup">
               <ListGroup.Item variant="primary">

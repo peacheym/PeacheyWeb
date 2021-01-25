@@ -49,6 +49,10 @@ html {
   padding: 0px 10px;
 }
 
+.expRow a {
+  padding: 0px !important;
+}
+
 .exph1 {
   font-size: 3em;
   margin-bottom: 20px;
@@ -87,9 +91,8 @@ html {
   color: white !important;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: rgb(141, 128, 199) !important;
-
 }
 
 .workterm {
