@@ -13,7 +13,9 @@ export default function ResearchPaper(props) {
               {props.venue}
             </Card.Subtitle>
             <Card.Text>{props.authors}</Card.Text>
-            <Card.Link href={props.url}>Link to Paper</Card.Link>
+            <Card.Link href={props.url}>
+              {props.preprint ? "Paper Accepted (Pre-print)" : "Link to Paper"}
+            </Card.Link>
           </Card.Body>
         </Card>
       </Col>

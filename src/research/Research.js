@@ -62,6 +62,7 @@ export default function Research() {
           F. Reilly, Tabitha C Peck, Andrea Stevenson Won, Anthony Steed
           and Eyal Ofek."
           url="https://www.microsoft.com/en-us/research/publication/movebox-democratizing-mocap-for-the-microsoft-rocketbox-avatar-library/"
+          preprint={false}
         />
 
         <hr style={{ width: "60%", marginTop: "30px", marginBottom: "50px" }} />
@@ -73,6 +74,7 @@ export default function Research() {
           authors="Derek Reilly, Joseph Malloch, Abbey Singh, Issac Fresia,
           Shivam Mahajan, Jake Moore and Matthew Peachey"
           url="https://ieeexplore.ieee.org/document/9288424"
+          preprint={false}
         />
 
         <hr style={{ width: "60%", marginTop: "30px", marginBottom: "50px" }} />
@@ -84,6 +86,7 @@ export default function Research() {
           Matthew Peachey, Mar Gonzalez-Franco, Joseph
           Malloch and Derek Reilly"
           url="http://ieeevr.org/2021/"
+          preprint={true}
         />
         <br></br>
         <br></br>
