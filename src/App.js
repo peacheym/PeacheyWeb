@@ -3,14 +3,14 @@ import NavBar from "./NavBar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Home from "./home/Home";
-import Experience from "./experience/Experience";
+import Experience from "./work-experience/Experience";
 // import Projects from './projects/Projects';
 
 import Footer from "./Footer";
 
 import "./App.css";
-import Research from "./research/Research";
-import Volunteer from "./experience/Volunteer";
+import Research from "./research-experience/Research";
+import Volunteer from "./volunteer-experience/Volunteer";
 
 function App() {
   return (
