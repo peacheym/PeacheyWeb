@@ -16,7 +16,8 @@ export default function About() {
             I am a fourth year student at Dalhousie University in Halifax, Nova
             Scotia. I am currently studying Computer Science and have a
             particular interest in Computer Vision as well as the Internet of
-            Things (IOT), Modern Web Development, and open-source projects.
+            Things (IOT), Robotics, Modern Web Development and open-source
+            projects.
           </p>
 
           <p>
@@ -29,8 +30,8 @@ export default function About() {
 
           <p>
             Through my studies I have developed a strong understanding of the
-            fundamentals of Computer Science such as data structures &amp;
-            algorithms, machine learning, and networks. I have also enjoyed
+            fundamentals of Computer Science such as machine learning, data
+            structures &amp; algorithms, and networks. I have also enjoyed
             learning about modern web technologies such as React, GraphQL, and
             several other interesting frameworks and technologies in that area.
           </p>
