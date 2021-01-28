@@ -16,7 +16,7 @@ export default function About() {
             I am a fourth year student at Dalhousie University in Halifax, Nova
             Scotia. I am currently studying Computer Science and have a
             particular interest in Computer Vision as well as the Internet of
-            Things (IOT), Robotics, Modern Web Development and open-source
+            Things, Robotics, Modern Web Development and open-source
             projects.
           </p>
 
