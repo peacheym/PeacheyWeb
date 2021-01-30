@@ -91,7 +91,8 @@ html {
   color: white !important;
 }
 
-.nav-link:hover {
+.nav-link:hover,
+.icon-class:hover {
   color: rgb(141, 128, 199) !important;
 }
 

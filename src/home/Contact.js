@@ -10,6 +10,7 @@ export default function Contact() {
       <ListGroup horizontal as="ul" style={{ justifyContent: "center" }}>
         <ListGroup.Item as="li">
           <a
+            class="icon-class"
             href="https://github.com/peacheym"
             style={{ color: "black", fontSize: "20px", padding: "10px" }}
           >
@@ -18,6 +19,7 @@ export default function Contact() {
         </ListGroup.Item>
         <ListGroup.Item as="li">
           <a
+            class="icon-class"
             href="https://www.linkedin.com/in/matt-peachey-02bb11152"
             style={{ color: "black", fontSize: "20px", padding: "10px" }}
           >
@@ -26,6 +28,7 @@ export default function Contact() {
         </ListGroup.Item>
         <ListGroup.Item as="li">
           <a
+            class="icon-class"
             href="https://twitter.com/mattpeachey3"
             style={{ color: "black", fontSize: "20px", padding: "10px" }}
           >
@@ -34,6 +37,7 @@ export default function Contact() {
         </ListGroup.Item>
         <ListGroup.Item as="li">
           <a
+            class="icon-class"
             href="mailto://peacheym@dal.ca"
             style={{ color: "black", fontSize: "20px", padding: "10px" }}
           >
