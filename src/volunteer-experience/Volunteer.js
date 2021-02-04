@@ -85,11 +85,6 @@ class Volunteer extends Component {
                 be forced to give up their dreams of competing at the highest
                 levels.
               </p>
-              <p>
-                If FUNSports sounds like an organization that you would like to
-                support, please visit their website:
-                <a href="http://funsports.fun">funsports.fun</a>
-              </p>
 
               <h5 className="workterm">April 2019 - December 2019</h5>
             </Col>
