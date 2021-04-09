@@ -1,8 +1,10 @@
 # Peachey Web
 
-This repository contains the source code for my personal website which can currenly be accessed at [mattpeachey.ca](http://mattpeachey.ca)! The goal of this site is to serve as both a portfolio of my work as a whole, as well as allow me to practice with modern web-development techniques such as JavaScript Frameworks, GraphQL, Middleware, etc.
+This repository contains the source code for my personal website which can currenly be accessed at [mattpeachey.ca](http://mattpeachey.ca)!
 
-Note: _This project is a work in progress_
+The goal of this site is to serve as both a portfolio of my work as a whole, as well as allow me to practice with modern web-development techniques such as JavaScript Frameworks, GraphQL, Middleware, etc.
+
+Note: _This project is very much an active work in progress_
 
 ## Author
 
