@@ -28,9 +28,10 @@ function App() {
               venue="IEEE AIVR"
               date="December 2020"
               url="#"
+              isLoaded={true}
             />
             <ResearchProject
-              imgsrc=""
+              imgsrc="https://www.microsoft.com/en-us/research/uploads/prod/2020/10/Picture1.png"
               alttext="Header Img"
               badges={[]}
               title="Story CreatAR: a Toolkit for Spatially-Adaptive AR
@@ -38,15 +39,17 @@ function App() {
               venue="IEEE VR"
               date="November 2020"
               url="#"
+              isLoaded={false}
             />
             <ResearchProject
-              imgsrc=""
+              imgsrc="https://www.microsoft.com/en-us/research/uploads/prod/2020/10/Picture1.png"
               alttext="Header Img"
               badges={[]}
               title="Using Space Syntax to Enable Walkable AR Experiences"
               venue="IEEE ISMAR"
               date="???"
               url="#"
+              isLoaded={false}
             />
           </VStack>
         </Grid>

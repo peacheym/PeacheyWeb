@@ -1,10 +1,19 @@
 import React from 'react';
-import { Box, Image, Badge, LinkBox, LinkOverlay } from '@chakra-ui/react';
+import {
+  Box,
+  Image,
+  Badge,
+  LinkBox,
+  LinkOverlay,
+  Skeleton,
+} from '@chakra-ui/react';
 
 function ResearchProject(props) {
   return (
     <LinkBox maxW="md" borderWidth="1px" borderRadius="lg" overflow="hidden">
-      <Image src={props.imgsrc} alt={props.alttext} />
+      <Skeleton isLoaded={props.isLoaded}>
+        <Image src={props.imgsrc} alt={props.alttext} />
+      </Skeleton>
 
       <Box p="6">
         <Box d="flex" alignItems="baseline">
