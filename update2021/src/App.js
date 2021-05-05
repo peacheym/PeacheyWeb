@@ -19,9 +19,10 @@ function App() {
           <ColorModeSwitcher justifySelf="flex-end" />
           <VStack spacing={8}>
             <Text>Research Projects</Text>
-            <ResearchProject />
-            <ResearchProject />
-            <ResearchProject />
+            <ResearchProject
+              imgsrc="https://www.microsoft.com/en-us/research/uploads/prod/2020/10/Picture1.png"
+              badges={['test', 'test2']}
+            />
           </VStack>
         </Grid>
       </Box>

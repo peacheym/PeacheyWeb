@@ -1,38 +1,20 @@
 import React from 'react';
-import { Box, Image, Badge } from '@chakra-ui/react';
+import { Box, Image, Badge, LinkBox, LinkOverlay } from '@chakra-ui/react';
 
-function ResearchProject() {
-  const property = {
-    imageUrl: 'https://bit.ly/2Z4KKcF',
-    imageAlt: 'Rear view of modern home with pool',
-    beds: 3,
-    baths: 2,
-    title: 'Modern home in city center in the heart of historic Los Angeles',
-    formattedPrice: '$1,900.00',
-    reviewCount: 34,
-    rating: 4,
-  };
-
+function ResearchProject(props) {
   return (
-    <Box maxW="md" borderWidth="1px" borderRadius="lg" overflow="hidden">
-      <Image
-        src={
-          'https://www.microsoft.com/en-us/research/uploads/prod/2020/10/Picture1.png'
-        }
-        alt={property.imageAlt}
-      />
+    <LinkBox maxW="md" borderWidth="1px" borderRadius="lg" overflow="hidden">
+      <Image src={props.imgsrc} alt={props.alt_text} />
 
       <Box p="6">
         <Box d="flex" alignItems="baseline">
-          <Badge borderRadius="full" px="2" colorScheme="pink">
-            AR/VR
-          </Badge>
-          <Badge borderRadius="full" px="2" colorScheme="blue" ml="2">
-            CV
-          </Badge>
-          <Badge borderRadius="full" px="2" colorScheme="teal" ml="2">
-            test
-          </Badge>
+          {props.badges.map(badge => {
+            return (
+              <Badge borderRadius="full" px="2" colorScheme="blue" mr="2">
+                {badge}
+              </Badge>
+            );
+          })}
         </Box>
         <Box
           mt="1"
@@ -41,9 +23,11 @@ function ResearchProject() {
           lineHeight="tight"
           //   isTruncated
         >
-          {
-            'MoveBox: Democratizing MoCap for the Microsoft Rocketbox Avatar Library'
-          }
+          <LinkOverlay href="#">
+            {
+              'MoveBox: Democratizing MoCap for the Microsoft Rocketbox Avatar Library'
+            }
+          </LinkOverlay>
         </Box>
         <Box>
           IEEE AIVR 2020
@@ -53,7 +37,7 @@ function ResearchProject() {
           </Box>
         </Box>
       </Box>
-    </Box>
+    </LinkBox>
   );
 }
 
