@@ -4,7 +4,7 @@ import { Box, Image, Badge, LinkBox, LinkOverlay } from '@chakra-ui/react';
 function ResearchProject(props) {
   return (
     <LinkBox maxW="md" borderWidth="1px" borderRadius="lg" overflow="hidden">
-      <Image src={props.imgsrc} alt={props.alt_text} />
+      <Image src={props.imgsrc} alt={props.alttext} />
 
       <Box p="6">
         <Box d="flex" alignItems="baseline">
@@ -23,17 +23,13 @@ function ResearchProject(props) {
           lineHeight="tight"
           //   isTruncated
         >
-          <LinkOverlay href="#">
-            {
-              'MoveBox: Democratizing MoCap for the Microsoft Rocketbox Avatar Library'
-            }
-          </LinkOverlay>
+          <LinkOverlay href={props.url}>{props.title}</LinkOverlay>
         </Box>
         <Box>
-          IEEE AIVR 2020
+          {props.venue}
           <Box as="span" color="gray.600" fontSize="sm">
             {' '}
-            | December 2020
+            | {props.date}
           </Box>
         </Box>
       </Box>

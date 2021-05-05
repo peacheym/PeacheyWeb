@@ -19,9 +19,34 @@ function App() {
           <ColorModeSwitcher justifySelf="flex-end" />
           <VStack spacing={8}>
             <Text>Research Projects</Text>
+
             <ResearchProject
               imgsrc="https://www.microsoft.com/en-us/research/uploads/prod/2020/10/Picture1.png"
-              badges={['test', 'test2']}
+              alttext="Header Img"
+              badges={['AR / VR', 'CV']}
+              title="MoveBox: Democratizing MoCap for the Microsoft Rocketbox Avatar Library"
+              venue="IEEE AIVR"
+              date="December 2020"
+              url="#"
+            />
+            <ResearchProject
+              imgsrc=""
+              alttext="Header Img"
+              badges={[]}
+              title="Story CreatAR: a Toolkit for Spatially-Adaptive AR
+              Storytelling"
+              venue="IEEE VR"
+              date="November 2020"
+              url="#"
+            />
+            <ResearchProject
+              imgsrc=""
+              alttext="Header Img"
+              badges={[]}
+              title="Using Space Syntax to Enable Walkable AR Experiences"
+              venue="IEEE ISMAR"
+              date="???"
+              url="#"
             />
           </VStack>
         </Grid>
