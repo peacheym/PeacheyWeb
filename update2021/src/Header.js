@@ -28,7 +28,7 @@ const Header = props => {
         </Heading>
       </Flex>
 
-      <Box display={{ base: 'block', md: 'none' }} onClick={handleToggle}>
+      {/* <Box display={{ base: 'block', md: 'none' }} onClick={handleToggle}>
         <svg
           fill="white"
           width="12px"
@@ -46,10 +46,10 @@ const Header = props => {
         alignItems="center"
         flexGrow={1}
       >
-        {/* <MenuItems>Docs</MenuItems> */}
-        {/* <MenuItems>Examples</MenuItems>
-        <MenuItems>Blog</MenuItems> */}
-      </Box>
+        <MenuItems>Docs</MenuItems>
+        <MenuItems>Examples</MenuItems>
+        <MenuItems>Blog</MenuItems>
+      </Box> */}
     </Flex>
   );
 };
