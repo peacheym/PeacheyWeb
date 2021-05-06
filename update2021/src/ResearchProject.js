@@ -14,15 +14,21 @@ function generateBadgeColor(badge) {
       return 'green';
     case 'CV':
       return 'blue';
+    case 'Space Syntax':
+      return 'pink';
     default:
-      return 'purple'
+      return 'purple';
   }
 }
 
 function ResearchProject(props) {
   return (
     <LinkBox maxW="md" borderWidth="1px" borderRadius="lg" overflow="hidden">
-      <Skeleton isLoaded={props.isLoaded}>
+      <Skeleton
+        isLoaded={props.isLoaded}
+        startColor="#4b6cb7"
+        endColor=" #1E2B49"
+      >
         <Image src={props.imgsrc} alt={props.alttext} />
       </Skeleton>
 
