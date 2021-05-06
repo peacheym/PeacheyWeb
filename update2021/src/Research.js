@@ -4,9 +4,11 @@ import ResearchProject from './ResearchProject'
 
 export default function Research() {
   return (
-    <Box mt="100px">
+    <Box mt="100px" id="Research">
       <Center>
-        <Text fontSize="40px">Research Projects</Text>
+        <Text fontSize="40px" mb="30px">
+          Research Projects
+        </Text>
       </Center>
       <Center>
         <Text p="0 150px">

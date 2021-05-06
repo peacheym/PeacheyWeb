@@ -4,7 +4,8 @@ import { ChakraProvider, theme } from '@chakra-ui/react'
 import Header from './Header'
 import About from './About'
 import Research from './Research'
-import WorkExperience from './WorkExperience'
+import Experience from './Experience'
+import Footer from './Footer'
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <Header />
       <About />
       <Research />
-      <WorkExperience />
+      <Experience />
+      <Footer />
     </ChakraProvider>
   )
 }

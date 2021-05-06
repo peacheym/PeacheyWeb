@@ -16,7 +16,7 @@ import headshot from './headshot.jpg'
 
 export default function About() {
   return (
-    <SimpleGrid columns={2} p="50" mt="50px">
+    <SimpleGrid columns={2} p="50" mt="50px" id="About">
       <Box p={7}>
         <Center>
           <Text fontSize="40px">Hello!</Text>
