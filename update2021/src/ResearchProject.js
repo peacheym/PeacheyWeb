@@ -8,6 +8,17 @@ import {
   Skeleton,
 } from '@chakra-ui/react';
 
+function generateBadgeColor(badge) {
+  switch (badge) {
+    case 'AR / VR':
+      return 'green';
+    case 'CV':
+      return 'blue';
+    default:
+      return 'purple'
+  }
+}
+
 function ResearchProject(props) {
   return (
     <LinkBox maxW="md" borderWidth="1px" borderRadius="lg" overflow="hidden">
@@ -19,7 +30,12 @@ function ResearchProject(props) {
         <Box d="flex" alignItems="baseline">
           {props.badges.map(badge => {
             return (
-              <Badge borderRadius="full" px="2" colorScheme="blue" mr="2">
+              <Badge
+                borderRadius="full"
+                px="2"
+                colorScheme={generateBadgeColor(badge)}
+                mr="2"
+              >
                 {badge}
               </Badge>
             );
