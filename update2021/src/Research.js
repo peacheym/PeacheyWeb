@@ -1,11 +1,20 @@
 import React from 'react';
-import { Text, SimpleGrid } from '@chakra-ui/react';
+import { Text, SimpleGrid, Center } from '@chakra-ui/react';
 import ResearchProject from './ResearchProject';
 
 export default function Research() {
   return (
     <>
-      <Text>Research Projects</Text>
+      <Center>
+        <Text fontSize="40px">Research Projects</Text>
+      </Center>
+      <Center>
+        <Text>
+          Since 2020 I have been a member of the GEM Lab within Dalhousie's
+          Faculty of Computer Science. In this time I have had the opportunity
+          to work on several interesting research projects.
+        </Text>
+      </Center>
       <SimpleGrid columns={[1, 1, 3]} p="50">
         <ResearchProject
           imgsrc="https://www.microsoft.com/en-us/research/uploads/prod/2020/10/Picture1.png"
