@@ -1,6 +1,16 @@
 import React from 'react'
 
-import { Center, SimpleGrid, Text, Box, Image } from '@chakra-ui/react'
+import {
+  Center,
+  SimpleGrid,
+  Text,
+  Box,
+  Image,
+  Link,
+  Icon,
+} from '@chakra-ui/react'
+
+import { FiTwitter, FiLinkedin, FiGithub, FiMail } from 'react-icons/fi'
 
 import headshot from './headshot.jpg'
 
@@ -40,6 +50,23 @@ export default function About() {
             alt="Matt Peachey Headshot"
             borderRadius="15px"
           />
+          <Center mt="10px">
+            <Link href="https://twitter.com/mattpeachey3" isExternal>
+              <Icon fontSize="24px" m="10px" hov as={FiTwitter} />
+            </Link>
+            <Link href="https://github.com/peacheym" isExternal>
+              <Icon fontSize="24px" m="10px" as={FiGithub} />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/matt-peachey-02bb11152/"
+              isExternal
+            >
+              <Icon fontSize="24px" m="10px" as={FiLinkedin} />
+            </Link>
+            <Link href="mailto:peacheym@dal.ca" isExternal>
+              <Icon fontSize="24px" m="10px" as={FiMail} />
+            </Link>
+          </Center>
         </Box>
       </Center>
     </SimpleGrid>
