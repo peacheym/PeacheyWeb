@@ -6,7 +6,8 @@ import {
   VStack,
   SimpleGrid,
   theme,
-  Container,
+  Flex,
+  Spacer,
 } from '@chakra-ui/react';
 
 import Header from './Header';
@@ -18,8 +19,11 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <Header />
-      <About />
+
+      <About/>
+
       <Research />
+
       <WorkExperience />
     </ChakraProvider>
   );

@@ -1,15 +1,15 @@
 import React from 'react';
-import { Text, SimpleGrid, Center, Button } from '@chakra-ui/react';
+import { Text, SimpleGrid, Center, Button, Box } from '@chakra-ui/react';
 import ResearchProject from './ResearchProject';
 
 export default function Research() {
   return (
-    <>
+    <Box mt="100px">
       <Center>
         <Text fontSize="40px">Research Projects</Text>
       </Center>
       <Center>
-        <Text>
+        <Text p="0 150px">
           Since 2020 I have been a member of the GEM Lab within Dalhousie's
           Faculty of Computer Science. In this time I have had the opportunity
           to work on several interesting research projects.
@@ -67,6 +67,6 @@ export default function Research() {
           See More
         </Button>
       </Center>
-    </>
+    </Box>
   );
 }
