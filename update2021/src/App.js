@@ -23,7 +23,7 @@ function App() {
             <ResearchProject
               imgsrc="https://www.microsoft.com/en-us/research/uploads/prod/2020/10/Picture1.png"
               alttext="Header Img"
-              badges={['AR / VR', 'CV', 'blank']}
+              badges={['AR / VR', 'CV']}
               title="MoveBox: Democratizing MoCap for the Microsoft Rocketbox Avatar Library"
               venue="IEEE AIVR"
               date="December 2020"
@@ -33,21 +33,21 @@ function App() {
             <ResearchProject
               imgsrc="https://www.microsoft.com/en-us/research/uploads/prod/2020/10/Picture1.png"
               alttext="Header Img"
-              badges={[]}
+              badges={['AR / VR', 'Space Syntax', 'Story Telling']}
               title="Story CreatAR: a Toolkit for Spatially-Adaptive AR
               Storytelling"
               venue="IEEE VR"
-              date="November 2020"
+              date="March 2021"
               url="#"
               isLoaded={false}
             />
             <ResearchProject
               imgsrc="https://www.microsoft.com/en-us/research/uploads/prod/2020/10/Picture1.png"
               alttext="Header Img"
-              badges={[]}
+              badges={['AR / VR', 'Space Syntax']}
               title="Using Space Syntax to Enable Walkable AR Experiences"
               venue="IEEE ISMAR"
-              date="???"
+              date="November 2020"
               url="#"
               isLoaded={false}
             />
