@@ -1,9 +1,9 @@
 import React from 'react';
-import { Box, Heading, Flex, Text, Button } from '@chakra-ui/react';
+import { Box, Heading, Flex, Text, Link } from '@chakra-ui/react';
 
 const MenuItems = ({ children }) => (
   <Text mt={{ base: 4, md: 0 }} mr={6} display="block">
-    {children}
+    <Link href={'#' + children}>{children}</Link>
   </Text>
 );
 
@@ -28,7 +28,7 @@ const Header = props => {
         </Heading>
       </Flex>
 
-      {/* <Box display={{ base: 'block', md: 'none' }} onClick={handleToggle}>
+      <Box display={{ base: 'block', md: 'none' }} onClick={handleToggle}>
         <svg
           fill="white"
           width="12px"
@@ -46,10 +46,10 @@ const Header = props => {
         alignItems="center"
         flexGrow={1}
       >
-        <MenuItems>Docs</MenuItems>
-        <MenuItems>Examples</MenuItems>
-        <MenuItems>Blog</MenuItems>
-      </Box> */}
+        <MenuItems>About</MenuItems>
+        <MenuItems>Research</MenuItems>
+        <MenuItems>Experience</MenuItems>
+      </Box>
     </Flex>
   );
 };
