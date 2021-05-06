@@ -2,7 +2,7 @@ import React from 'react'
 import { Box, Heading, Flex, Text, Link } from '@chakra-ui/react'
 
 const MenuItems = ({ children }) => (
-  <Text mt={{ base: 4, md: 0 }} mr={6} display="block">
+  <Text mt={{ base: 4, md: 0 }} ml={6} display="block">
     <Link href={'#' + children}>{children}</Link>
   </Text>
 )

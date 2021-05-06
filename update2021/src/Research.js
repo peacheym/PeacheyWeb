@@ -41,7 +41,7 @@ export default function Research() {
           isLoaded={true}
         />
         <ResearchProject
-          imgsrc="https://www.microsoft.com/en-us/research/uploads/prod/2020/10/Picture1.png"
+          imgsrc=""
           alttext="Header Img"
           badges={['AR / VR', 'Space Syntax', 'Story Telling']}
           title="Story CreatAR: a Toolkit for Spatially-Adaptive AR
@@ -52,7 +52,7 @@ export default function Research() {
           isLoaded={false}
         />
         <ResearchProject
-          imgsrc="https://www.microsoft.com/en-us/research/uploads/prod/2020/10/Picture1.png"
+          imgsrc=""
           alttext="Header Img"
           badges={['AR / VR', 'Space Syntax']}
           title="Using Space Syntax to Enable Walkable AR Experiences"

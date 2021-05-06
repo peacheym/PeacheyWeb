@@ -31,7 +31,7 @@ function ResearchProject(props) {
           startColor="#4b6cb7"
           endColor=" #1E2B49"
         >
-          <Image src={props.imgsrc} alt={props.alttext} />
+          <Image src={props.imgsrc} alt={props.alttext} minH="200px"/>
         </Skeleton>
 
         <Box p="6">
