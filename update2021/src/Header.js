@@ -1,15 +1,15 @@
-import React from 'react';
-import { Box, Heading, Flex, Text, Link } from '@chakra-ui/react';
+import React from 'react'
+import { Box, Heading, Flex, Text, Link } from '@chakra-ui/react'
 
 const MenuItems = ({ children }) => (
   <Text mt={{ base: 4, md: 0 }} mr={6} display="block">
     <Link href={'#' + children}>{children}</Link>
   </Text>
-);
+)
 
 const Header = props => {
-  const [show, setShow] = React.useState(false);
-  const handleToggle = () => setShow(!show);
+  const [show, setShow] = React.useState(false)
+  const handleToggle = () => setShow(!show)
 
   return (
     <Flex
@@ -51,7 +51,7 @@ const Header = props => {
         <MenuItems>Experience</MenuItems>
       </Box>
     </Flex>
-  );
-};
+  )
+}
 
-export default Header;
+export default Header

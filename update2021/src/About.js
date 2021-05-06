@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react'
 
-import { Center, SimpleGrid, Text, Box, Image } from '@chakra-ui/react';
+import { Center, SimpleGrid, Text, Box, Image } from '@chakra-ui/react'
 
-import headshot from './headshot.jpg';
+import headshot from './headshot.jpg'
 
 export default function About() {
   return (
@@ -43,5 +43,5 @@ export default function About() {
         </Box>
       </Center>
     </SimpleGrid>
-  );
+  )
 }

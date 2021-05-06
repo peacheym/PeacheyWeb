@@ -6,7 +6,7 @@ import TimelineConnector from '@material-ui/lab/TimelineConnector';
 import TimelineContent from '@material-ui/lab/TimelineContent';
 import TimelineDot from '@material-ui/lab/TimelineDot';
 import TimelineOppositeContent from '@material-ui/lab/TimelineOppositeContent';
-import { Text, Box, Center, SimpleGrid, Container } from '@chakra-ui/react';
+import { Text, Box, Center, SimpleGrid } from '@chakra-ui/react';
 
 export default function WorkExperience() {
   return (

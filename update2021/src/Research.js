@@ -1,6 +1,6 @@
-import React from 'react';
-import { Text, SimpleGrid, Center, Button, Box } from '@chakra-ui/react';
-import ResearchProject from './ResearchProject';
+import React from 'react'
+import { Text, SimpleGrid, Center, Button, Box } from '@chakra-ui/react'
+import ResearchProject from './ResearchProject'
 
 export default function Research() {
   return (
@@ -68,5 +68,5 @@ export default function Research() {
         </Button>
       </Center>
     </Box>
-  );
+  )
 }

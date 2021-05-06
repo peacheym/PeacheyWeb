@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import {
   Box,
   Image,
@@ -7,18 +7,18 @@ import {
   LinkOverlay,
   Skeleton,
   Center,
-} from '@chakra-ui/react';
+} from '@chakra-ui/react'
 
 function generateBadgeColor(badge) {
   switch (badge) {
     case 'AR / VR':
-      return 'green';
+      return 'green'
     case 'CV':
-      return 'blue';
+      return 'blue'
     case 'Space Syntax':
-      return 'pink';
+      return 'pink'
     default:
-      return 'purple';
+      return 'purple'
   }
 }
 
@@ -46,7 +46,7 @@ function ResearchProject(props) {
                 >
                   {badge}
                 </Badge>
-              );
+              )
             })}
           </Box>
           <Box
@@ -68,7 +68,7 @@ function ResearchProject(props) {
         </Box>
       </LinkBox>
     </Center>
-  );
+  )
 }
 
-export default ResearchProject;
+export default ResearchProject
