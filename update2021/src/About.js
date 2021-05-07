@@ -21,25 +21,35 @@ export default function About() {
         <Center>
           <Text fontSize="40px">Hello!</Text>
         </Center>
-        <Center>
+
+        <Center mt="20px">
           <Text>
-            My name is Matt Peachey, I am a 4th year undergraduate student
-            studying computer science at Dalhousie University.
-            <br />
-            <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-            feugiat arcu non metus finibus, ornare convallis lacus mollis. Sed
-            sed ipsum nec libero ornare bibendum. Aliquam aliquam ac lorem at
-            eleifend. Praesent eu feugiat libero, sit amet porttitor justo.
-            Fusce in arcu condimentum, rhoncus leo sit amet, dignissim erat.
-            Phasellus facilisis nec nunc in condimentum. Interdum et malesuada
-            fames ac ante ipsum primis in faucibus. Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Quisque dictum ornare nisl, quis
-            elementum tortor tristique eu. Morbi porta lacus nec cursus luctus.
-            Nunc venenatis fermentum mi id aliquet. Duis eleifend porttitor ex,
-            vitae tincidunt felis tincidunt vitae. Mauris consequat vulputate
-            nulla eget interdum. Proin a magna velit. Donec venenatis fringilla
-            mauris.
+            My name is Matt Peachey, I am a fourth year student at Dalhousie
+            University in Halifax, Nova Scotia. I am currently studying Computer
+            Science and have a particular interest in Computer Vision / Machine
+            Learning as well as Human Computer Interaction and Modern Web
+            Development Technologies.
+          </Text>
+        </Center>
+
+        <Center mt="20px">
+          <Text>
+            I have completed three Co-op placements where I worked both as a
+            software developer as well as a researcher in a Lab. Though each of
+            these experiences differed in significant ways, I learned countless
+            valuable lessons at each of them that have shaped the foundation of
+            my computing knowledge and interests.
+          </Text>
+        </Center>
+
+        <Center mt="20px">
+          <Text>
+            Through my studies I have developed a strong understanding of
+            Computer Science topics such as machine learning, data structures
+            &amp; algorithms, and network computing. I have also enjoyed
+            learning about modern web technologies such as React, GraphQL, and
+            other interesting frameworks and technologies in the web-development
+            space.
           </Text>
         </Center>
       </Box>

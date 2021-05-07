@@ -1,5 +1,5 @@
 import React from 'react'
-import { Text, SimpleGrid, Center, Button, Box } from '@chakra-ui/react'
+import { Text, SimpleGrid, Center, Button, Box, Link } from '@chakra-ui/react'
 import ResearchProject from './ResearchProject'
 
 export default function Research() {
@@ -12,25 +12,37 @@ export default function Research() {
       </Center>
       <Center>
         <Text p="0 150px">
-          Since 2020 I have been a member of the GEM Lab within Dalhousie's
-          Faculty of Computer Science. In this time I have had the opportunity
-          to work on several interesting research projects.
-          <br />
-          <br />
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-          feugiat arcu non metus finibus, ornare convallis lacus mollis. Sed sed
-          ipsum nec libero ornare bibendum. Aliquam aliquam ac lorem at
-          eleifend. Praesent eu feugiat libero, sit amet porttitor justo. Fusce
-          in arcu condimentum, rhoncus leo sit amet, dignissim erat. Phasellus
-          facilisis nec nunc in condimentum. Interdum et malesuada fames ac ante
-          ipsum primis in faucibus. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Quisque dictum ornare nisl, quis elementum tortor
-          tristique eu. Morbi porta lacus nec cursus luctus. Nunc venenatis
-          fermentum mi id aliquet. Duis eleifend porttitor ex, vitae tincidunt
-          felis tincidunt vitae. Mauris consequat vulputate nulla eget interdum.
-          Proin a magna velit. Donec venenatis fringilla mauris.
+          Thanks to my interest in academic research, I have long aspired to
+          pursue graduate studies following the completion of my Bachelor of
+          Computer Science degree. In order to gain experience as an independent
+          researcher, I have actively pursued research opportunities during my
+          undergraduate degree. I have been fortunate enough to work with the
+          GEM Lab as both a USRA recipient as well as an honours student. I have
+          been working with various teams at GEM Lab since early 2020, and have
+          contributed to several exciting and multi-disciplinary projects in
+          that time.
         </Text>
       </Center>
+      <Center mt="20px">
+        <Text p="0 150px">
+          I am currently working under the supervision of{' '}
+          <Link
+            color="#4b6cb7"
+            href="https://www.dal.ca/faculty/computerscience/faculty-staff/joseph-malloch.html"
+          >
+            Dr. Joseph Malloch
+          </Link>{' '}
+          towards the completion of an undergraduate honours thesis. For this
+          project, we are exploring computer vision based hand-tracking
+          technologies and how to best represent the data they produce. We are
+          not looking for a singular best way, but rather looking to represent
+          the data in such a manner that as many use cases can be easily
+          implemented with one structure. This work is currently ongoing, and
+          this page will be updated appropriately as progress is made. A full
+          list of projects that I have collaborated on is found below.
+        </Text>
+      </Center>
+
       <SimpleGrid columns={[1, 1, 3]} p="50">
         <ResearchProject
           imgsrc="https://www.microsoft.com/en-us/research/uploads/prod/2020/10/Picture1.png"

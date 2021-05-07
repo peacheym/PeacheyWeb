@@ -17,21 +17,20 @@ export default function Experience() {
         </Text>
       </Center>
       <Center>
-        <Text p="0 150px">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-          feugiat arcu non metus finibus, ornare convallis lacus mollis. Sed sed
-          ipsum nec libero ornare bibendum. Aliquam aliquam ac lorem at
-          eleifend. Praesent eu feugiat libero, sit amet porttitor justo. Fusce
-          in arcu condimentum, rhoncus leo sit amet, dignissim erat. Phasellus
-          facilisis nec nunc in condimentum. Interdum et malesuada fames ac ante
-          ipsum primis in faucibus. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. Quisque dictum ornare nisl, quis elementum tortor
-          tristique eu. Morbi porta lacus nec cursus luctus. Nunc venenatis
-          fermentum mi id aliquet. Duis eleifend porttitor ex, vitae tincidunt
-          felis tincidunt vitae. Mauris consequat vulputate nulla eget interdum.
-          Proin a magna velit. Donec venenatis fringilla mauris.
+        <Text p="0 250px">
+          Thanks to participating in the Co-Op program as part of my
+          undergraduate degree, I have had several great opportunities to work
+          in the software development industry. In these roles, I was able to
+          apply the skills learned in the classroom while acquiring new skills
+          on the job. Each of these experiences have had tremendous impact on my
+          journey as a developer and Computer Scientist. I have also worked as a
+          researcher, teaching assistant as well as a volunteer with several
+          organizations. The volunteer positions have been a great opportunity
+          to put my computing skills to good use by helping organizations with
+          their projects.
         </Text>
       </Center>
+
       <SimpleGrid columns={[1, 1, 2]} p="50">
         <Center>
           <Box>
