@@ -1,44 +1,22 @@
-import React from "react";
-import NavBar from "./NavBar";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import React from 'react'
+import { ChakraProvider, theme } from '@chakra-ui/react'
 
-import Home from "./home/Home";
-import Experience from "./work-experience/Experience";
-// import Projects from './projects/Projects';
-
-import Footer from "./Footer";
-
-import "./App.css";
-import Research from "./research-experience/Research";
-import Volunteer from "./volunteer-experience/Volunteer";
+import Header from './Header'
+import About from './About'
+import Research from './Research'
+import Experience from './Experience'
+import Footer from './Footer'
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <NavBar></NavBar>
-      </header>
-
-      <Router>
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/experience">
-            <Experience />
-          </Route>
-          <Route path="/research">
-            <Research />
-          </Route>
-          <Route path="/volunteer">
-            <Volunteer />
-          </Route>
-        </Switch>
-      </Router>
-
+    <ChakraProvider theme={theme}>
+      <Header />
+      <About />
+      <Research />
+      <Experience />
       <Footer />
-    </div>
-  );
+    </ChakraProvider>
+  )
 }
 
-export default App;
+export default App
