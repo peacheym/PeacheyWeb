@@ -27,7 +27,7 @@ This project was built by implementing the following tools and technologies:
 
 This project also relies on the following dependencies:
 
-- [React-bootstrap](https://react-bootstrap.github.io/)
+- ChakraUI
 
 This project is deployed via [Heroku](www.heroku.com)
 
