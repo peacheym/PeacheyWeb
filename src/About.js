@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 import {
   Center,
@@ -8,17 +8,18 @@ import {
   Image,
   Link,
   Icon,
-} from '@chakra-ui/react'
+} from "@chakra-ui/react";
 
-import { FiTwitter, FiLinkedin, FiGithub, FiMail } from 'react-icons/fi'
+import { FiTwitter, FiLinkedin, FiGithub, FiMail } from "react-icons/fi";
 
-import headshot from './headshot.jpg'
-
+import headshot from "./headshot.jpg";
+// todo: Make this more responsive and less bad.
 export default function About() {
   return (
     <SimpleGrid columns={2} p="50" mt="50px" id="About">
       <Box p={7}>
         <Center>
+          ill
           <Text fontSize="40px">Hello!</Text>
         </Center>
 
@@ -80,5 +81,5 @@ export default function About() {
         </Box>
       </Center>
     </SimpleGrid>
-  )
+  );
 }
