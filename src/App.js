@@ -4,13 +4,17 @@ import { ChakraProvider, theme, Text } from "@chakra-ui/react";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 import Hero from "./Hero";
+import LatestResearch from "./LatestReserach";
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
       <NavBar />
       <Hero />
-      <Text textAlign="center">More coming soon...</Text>
+      <LatestResearch />
+      <Text mb="100px" textAlign="center">
+        More coming soon...
+      </Text>
       <Footer />
     </ChakraProvider>
   );

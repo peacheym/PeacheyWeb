@@ -21,7 +21,7 @@ import {
   ChevronRightIcon,
 } from "@chakra-ui/icons";
 
-import { Link as ReachLink } from "@reach/router";
+// import { Link as ReachLink } from "@reach/router"; // USE LATER IF I WANT MORE THAN A SINGLE PAGE
 
 import { NavItems } from "./data/NavItems";
 
@@ -91,9 +91,8 @@ const DesktopNav = () => {
           <Popover trigger={"hover"} placement={"bottom-start"}>
             <PopoverTrigger>
               <Link
-                as={ReachLink}
                 p={2}
-                to={navItem.href ?? "#"}
+                href={navItem.href ?? "#"}
                 fontSize={"sm"}
                 fontWeight={500}
                 color={linkColor}
@@ -132,8 +131,7 @@ const DesktopNav = () => {
 const DesktopSubNav = ({ label, href, subLabel }) => {
   return (
     <Link
-      as={ReachLink}
-      to={href}
+      href={href}
       role={"group"}
       display={"block"}
       p={2}
@@ -224,7 +222,7 @@ const MobileNavItem = ({ label, children, href }) => {
         >
           {children &&
             children.map((child) => (
-              <Link as={ReachLink} key={child.label} py={2} to={child.href}>
+              <Link key={child.label} py={2} href={child.href}>
                 {child.label}
               </Link>
             ))}

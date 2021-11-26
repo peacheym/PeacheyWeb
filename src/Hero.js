@@ -60,25 +60,9 @@ export default function Hero() {
             !
           </Text>
           <Text color={"gray.500"}>
-            My Research Areas are: Human Computer Interaction, Machine Learning,
-            Digital Musical Instruments, and more!
+            My research areas are: Human Computer Interaction (HCI), Machine
+            Learning (ML), Digital Musical Instruments (DMIs), and more!
           </Text>
-          {/* <Stack
-            spacing={{ base: 4, sm: 6 }}
-            direction={{ base: "column", sm: "row" }}
-          >
-            <Button
-              rounded={"full"}
-              size={"lg"}
-              fontWeight={"normal"}
-              px={6}
-              colorScheme={"orange"}
-              bg={"orange.300"}
-              _hover={{ bg: "orange.400" }}
-            >
-              Read More
-            </Button>
-          </Stack> */}
         </Stack>
         <Flex
           flex={1}
