@@ -3,7 +3,6 @@ import {
   Flex,
   Text,
   IconButton,
-  Button,
   Stack,
   Collapse,
   Icon,
@@ -22,7 +21,11 @@ import {
   ChevronRightIcon,
 } from "@chakra-ui/icons";
 
-export default function NavBar() {
+import { Link as ReachLink } from "@reach/router";
+
+import { NavItems } from "./data/NavItems";
+
+export default function Navbar() {
   const { isOpen, onToggle } = useDisclosure();
 
   return (
@@ -55,10 +58,12 @@ export default function NavBar() {
         <Flex flex={{ base: 1 }} justify={{ base: "center", md: "start" }}>
           <Text
             textAlign={useBreakpointValue({ base: "center", md: "left" })}
+            display={useBreakpointValue({ base: "none", md: "block" })}
             fontFamily={"heading"}
+            fontSize="28px"
             color={useColorModeValue("gray.800", "white")}
           >
-            Matt Peachey
+            🍑
           </Text>
 
           <Flex display={{ base: "none", md: "flex" }} ml={10}>
@@ -81,13 +86,14 @@ const DesktopNav = () => {
 
   return (
     <Stack direction={"row"} spacing={4}>
-      {NAV_ITEMS.map((navItem) => (
-        <Box key={navItem.label}>
+      {NavItems.map((navItem) => (
+        <Flex key={navItem.label}>
           <Popover trigger={"hover"} placement={"bottom-start"}>
             <PopoverTrigger>
               <Link
+                as={ReachLink}
                 p={2}
-                href={navItem.href ?? "#"}
+                to={navItem.href ?? "#"}
                 fontSize={"sm"}
                 fontWeight={500}
                 color={linkColor}
@@ -117,7 +123,7 @@ const DesktopNav = () => {
               </PopoverContent>
             )}
           </Popover>
-        </Box>
+        </Flex>
       ))}
     </Stack>
   );
@@ -126,18 +132,19 @@ const DesktopNav = () => {
 const DesktopSubNav = ({ label, href, subLabel }) => {
   return (
     <Link
-      href={href}
+      as={ReachLink}
+      to={href}
       role={"group"}
       display={"block"}
       p={2}
       rounded={"md"}
-      _hover={{ bg: useColorModeValue("pink.50", "gray.900") }}
+      _hover={{ bg: useColorModeValue("purple.50", "gray.900") }}
     >
       <Stack direction={"row"} align={"center"}>
         <Box>
           <Text
             transition={"all .3s ease"}
-            _groupHover={{ color: "pink.400" }}
+            _groupHover={{ color: "blue.400" }}
             fontWeight={500}
           >
             {label}
@@ -153,7 +160,7 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
           align={"center"}
           flex={1}
         >
-          <Icon color={"pink.400"} w={5} h={5} as={ChevronRightIcon} />
+          <Icon color={"blue.400"} w={5} h={5} as={ChevronRightIcon} />
         </Flex>
       </Stack>
     </Link>
@@ -167,7 +174,7 @@ const MobileNav = () => {
       p={4}
       display={{ md: "none" }}
     >
-      {NAV_ITEMS.map((navItem) => (
+      {NavItems.map((navItem) => (
         <MobileNavItem key={navItem.label} {...navItem} />
       ))}
     </Stack>
@@ -217,7 +224,7 @@ const MobileNavItem = ({ label, children, href }) => {
         >
           {children &&
             children.map((child) => (
-              <Link key={child.label} py={2} href={child.href}>
+              <Link as={ReachLink} key={child.label} py={2} to={child.href}>
                 {child.label}
               </Link>
             ))}
@@ -226,18 +233,3 @@ const MobileNavItem = ({ label, children, href }) => {
     </Stack>
   );
 };
-
-const NAV_ITEMS = [
-  {
-    label: "Research",
-    href: "research",
-  },
-  {
-    label: "About",
-    href: "about",
-  },
-  {
-    label: "Contact",
-    href: "contact",
-  },
-];
