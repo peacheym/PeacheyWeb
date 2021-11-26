@@ -51,10 +51,16 @@ export default function Footer() {
         align={{ base: "center", md: "center" }}
       >
         <Stack direction={"row"} spacing={6}>
-          <SocialButton label={"Twitter"} href={"#"}>
+          <SocialButton
+            label={"Twitter"}
+            href={"https://twitter.com/MattPeachey3"}
+          >
             <FaTwitter />
           </SocialButton>
-          <SocialButton label={"LinkedIn"} href={"#"}>
+          <SocialButton
+            label={"LinkedIn"}
+            href={"https://www.linkedin.com/in/matt-peachey-02bb11152/"}
+          >
             <FaLinkedin />
           </SocialButton>
         </Stack>
