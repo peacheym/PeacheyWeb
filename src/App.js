@@ -12,7 +12,7 @@ function App() {
       <NavBar />
       <Hero />
       <LatestResearch />
-      <Text mb="100px" textAlign="center">
+      <Text mb="100px" textAlign="center" id="contact">
         More coming soon...
       </Text>
       <Footer />

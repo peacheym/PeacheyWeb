@@ -13,7 +13,7 @@ import {
 
 export default function LatestResearch() {
   return (
-    <Box maxW={"7xl"} m="100px auto" id="research">
+    <Box maxW={"7xl"} pt="25px" m="100px auto" id="research">
       <Heading
         as="h1"
         px={{ base: "10px", lg: 0 }}
