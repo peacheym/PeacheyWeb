@@ -137,13 +137,13 @@ export default function LatestResearch() {
                 View Paper
               </Link>
             </Box>
-            <Box
-              w="full"
-              h="full"
-              py={48}
-              bg={useColorModeValue("gray.200", "gray.700")}
-              borderRadius="10px"
-            ></Box>
+              <Box
+                w="full"
+                h="full"
+                py={48}
+                bg={useColorModeValue("gray.200", "gray.700")}
+                borderRadius="10px"
+              ></Box>
           </SimpleGrid>
           <SimpleGrid
             alignItems="start"
