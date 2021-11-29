@@ -10,6 +10,7 @@ export default function Contact() {
       alignItems="center"
       justifyContent="center"
       pb="50px"
+      id="contact"
     >
       <Box
         mx="auto"
