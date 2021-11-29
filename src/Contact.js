@@ -53,8 +53,8 @@ export default function Contact() {
               isExternal
             >
               @mattpeachey3
-            </Link>
-            {" "} but do significantly more 'liking' than 'tweeting'!
+            </Link>{" "}
+            but do significantly more 'liking' than 'tweeting'!
           </chakra.p>
         </Box>
       </Box>
