@@ -46,7 +46,7 @@ export default function Hero() {
             . My supervisor is{" "}
             <Link
               color="orange.500"
-              href="https://www.dal.ca/faculty/computerscience.html"
+              href="https://josephmalloch.wordpress.com/"
               isExternal
             >
               Dr. Joseph Malloch
