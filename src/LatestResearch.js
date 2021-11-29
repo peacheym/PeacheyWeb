@@ -90,6 +90,7 @@ export default function LatestResearch() {
                 align={"center"}
                 border={useColorModeValue("gray.200", "gray.700")}
                 borderRadius="10px"
+                h="85%"
                 src={movebox}
                 display={{ base: "none", md: "block" }}
               />
@@ -119,7 +120,6 @@ export default function LatestResearch() {
                 </chakra.h4>
                 <chakra.p
                   mb={5}
-                  textAlign={{ base: "center", sm: "left" }}
                   color={useColorModeValue("gray.600", "gray.400")}
                   fontSize={{ md: "lg" }}
                 >
@@ -186,11 +186,12 @@ export default function LatestResearch() {
                 </Link>
               </Box>
               <Image
-                alt={"Movebox Image"}
+                alt={"Walkable AR Image"}
                 align={"center"}
                 border={useColorModeValue("gray.200", "gray.700")}
                 borderRadius="10px"
                 src={walkable}
+                h="85%"
                 display={{ base: "none", md: "block" }}
               />
             </SimpleGrid>

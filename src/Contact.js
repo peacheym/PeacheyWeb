@@ -54,7 +54,7 @@ export default function Contact() {
             >
               @mattpeachey3
             </Link>{" "}
-            but do significantly more 'liking' than 'tweeting'!
+            but I tend to do significantly more 'liking' than 'tweeting'!
           </chakra.p>
         </Box>
       </Box>
