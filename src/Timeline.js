@@ -5,9 +5,9 @@ export default function Timeline() {
   return (
     <Box
       maxW={"7xl"}
-      pt="25px"
+      pt="50px"
       m="0px auto"
-      mb={{ base: "40px", md: "100px" }}
+      mb={{ base: "0px", md: "50px" }}
       id="experience"
     >
       <Heading
@@ -24,23 +24,30 @@ export default function Timeline() {
           title={"PhD (Computer Science)"}
           subtitle={"Dalhousie University"}
         >
-          dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat.
+          I am currently pursuing a PhD in Computer Science at Dalhousie
+          University. As a member of the GEM Lab, I have worked on projects
+          involving Human Computer Interaction, Augmented &amp; Virtual Reality,
+          and more. I have also collaborated on projects with other faculties at
+          Dalhousie as well as external research groups such as MSR.
+          <br />
+          <br />I am excited to collaborate on projects involving HCI, ML, DMIs
+          and other topics, so please get in touch!
         </Event>
         <Event
           interval={"2017 – 2021"}
           title={"Bachelor of Computer Science"}
           subtitle={"Dalhousie University"}
         >
-          dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-          occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-          mollit anim id est laborum.
+          I graduated from Dalhousie with a Bachelor of Computer Science (First
+          Class Honours) in 2021. I also earned a certificate in Communications
+          Technology &amp; Cyber Security during my degree. My Classwork
+          included topics such as Machine Learning, Network Computing, Cloud
+          Computing and more!
+          <br />
+          <br />
+          The title of my Honours Thesis was "Effectively and Efficiently
+          Representing Hand-Tracking Data Using Named Signal Instances" and my
+          supervisor was Dr. Joseph Malloch.
         </Event>
       </TL>
       <br />

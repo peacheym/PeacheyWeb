@@ -37,8 +37,8 @@ const SocialButton = ({ children, label, href }) => {
 export default function Footer() {
   return (
     <Box
-      bg={useColorModeValue("gray.50", "gray.900")}
-      color={useColorModeValue("gray.700", "gray.200")}
+      bg={useColorModeValue("gray.100", "gray.900")}
+      color={useColorModeValue("orange.300", "gray.200")}
     >
       <Container
         as={Stack}
@@ -63,7 +63,9 @@ export default function Footer() {
             <FaLinkedin />
           </SocialButton>
         </Stack>
-        <Text>© 2021 Matt Peachey</Text>
+        <Text color={useColorModeValue("gray.700", "gray.200")}>
+          © 2021 Matt Peachey
+        </Text>
         <Text>
           Powered by{" "}
           <Link
