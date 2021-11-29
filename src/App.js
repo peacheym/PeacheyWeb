@@ -1,10 +1,11 @@
 import React from "react";
-import { ChakraProvider, theme, Text } from "@chakra-ui/react";
+import { ChakraProvider, theme } from "@chakra-ui/react";
 
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 import Hero from "./Hero";
-import LatestResearch from "./LatestReserach";
+import LatestResearch from "./LatestResearch";
+import Timeline from "./Timeline";
 
 function App() {
   return (
@@ -12,9 +13,7 @@ function App() {
       <NavBar />
       <Hero />
       <LatestResearch />
-      <Text mb="100px" textAlign="center" id="contact">
-        More coming soon...
-      </Text>
+      <Timeline />
       <Footer />
     </ChakraProvider>
   );

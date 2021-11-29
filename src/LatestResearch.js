@@ -7,13 +7,18 @@ import {
   chakra,
   Flex,
   Link,
+  Image,
   SimpleGrid,
   useColorModeValue,
 } from "@chakra-ui/react";
 
+import movebox from "./images/Movebox_Image.png";
+import scar from "./images/SCAR_Image.jpg";
+import walkable from "./images/Walkable_Image.png";
+
 export default function LatestResearch() {
   return (
-    <Box maxW={"7xl"} pt="25px" m="100px auto" id="research">
+    <Box maxW={"7xl"} pt="25px" m="0px auto" mt="100px" id="research">
       <Heading
         as="h1"
         px={{ base: "10px", lg: 0 }}
@@ -84,13 +89,13 @@ export default function LatestResearch() {
                 View Github
               </Link>
             </Box>
-            <Box
-              w="full"
-              h="full"
-              py={48}
-              bg={useColorModeValue("gray.200", "gray.700")}
+            <Image
+              alt={"Movebox Image"}
+              align={"center"}
+              border={useColorModeValue("gray.200", "gray.700")}
               borderRadius="10px"
-            ></Box>
+              src={movebox}
+            />
           </SimpleGrid>
           <SimpleGrid
             alignItems="center"
@@ -137,13 +142,14 @@ export default function LatestResearch() {
                 View Paper
               </Link>
             </Box>
-            <Box
-              w="full"
-              h="full"
-              py={48}
-              bg={useColorModeValue("gray.200", "gray.700")}
+            <Image
+              alt={"Story Creat AR Image"}
+              align={"center"}
+              border={useColorModeValue("gray.200", "gray.700")}
               borderRadius="10px"
-            ></Box>
+              h="85%"
+              src={scar}
+            />
           </SimpleGrid>
           <SimpleGrid
             alignItems="start"
@@ -190,13 +196,13 @@ export default function LatestResearch() {
                 View Paper
               </Link>
             </Box>
-            <Box
-              w="full"
-              h="full"
-              py={48}
-              bg={useColorModeValue("gray.200", "gray.700")}
+            <Image
+              alt={"Movebox Image"}
+              align={"center"}
+              border={useColorModeValue("gray.200", "gray.700")}
               borderRadius="10px"
-            ></Box>
+              src={walkable}
+            />
           </SimpleGrid>
         </Box>
       </Flex>
