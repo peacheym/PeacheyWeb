@@ -58,7 +58,7 @@ export default function Hero() {
             !
           </Text>
           <Text color={"gray.500"}>
-            My research areas are: Human Computer Interaction (HCI), Machine
+            My research interests are: Human Computer Interaction (HCI), Machine
             Learning (ML), Digital Musical Instruments (DMIs), and more!
           </Text>
         </Stack>
