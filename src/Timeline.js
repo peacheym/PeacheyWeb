@@ -14,6 +14,7 @@ export default function Timeline() {
         as="h1"
         px={{ base: "10px", lg: 0 }}
         fontSize={{ base: "24px", md: "40px" }}
+        textAlign={{ base: "center", md: "left" }}
       >
         Education &amp; Experience
       </Heading>

@@ -24,6 +24,7 @@ export default function LatestResearch() {
           as="h1"
           px={{ base: "10px", lg: 0 }}
           fontSize={{ base: "24px", md: "40px" }}
+          textAlign={{ base: "center", md: "left" }}
         >
           Latest Research
         </Heading>
@@ -48,23 +49,17 @@ export default function LatestResearch() {
                   fontSize={{ base: "2xl", md: "4xl" }}
                   fontWeight="extrabold"
                   letterSpacing="tight"
-                  textAlign={{ base: "center", md: "left" }}
                   color={useColorModeValue("gray.900", "gray.400")}
                   lineHeight={{ md: "shorter" }}
                 >
                   MoveBox: Democratizing MoCap for the Microsoft Rocketbox
                   Avatar Library
                 </chakra.h2>{" "}
-                <chakra.h4
-                  mb={5}
-                  textAlign={{ base: "center", sm: "left" }}
-                  fontSize={{ md: "md" }}
-                >
+                <chakra.h4 mb={5} fontSize={{ md: "md" }}>
                   2020 IEEE Artificial Intelligence / Virtual Reality{" "}
                 </chakra.h4>
                 <chakra.p
                   mb={5}
-                  textAlign={{ base: "center", sm: "left" }}
                   color={useColorModeValue("gray.600", "gray.400")}
                   fontSize={{ md: "lg" }}
                 >
@@ -96,6 +91,7 @@ export default function LatestResearch() {
                 border={useColorModeValue("gray.200", "gray.700")}
                 borderRadius="10px"
                 src={movebox}
+                display={{ base: "none", md: "block" }}
               />
             </SimpleGrid>
             <SimpleGrid
@@ -112,18 +108,13 @@ export default function LatestResearch() {
                   fontSize={{ base: "2xl", md: "4xl" }}
                   fontWeight="extrabold"
                   letterSpacing="tight"
-                  textAlign={{ base: "center", md: "left" }}
                   color={useColorModeValue("gray.900", "gray.400")}
                   lineHeight={{ md: "shorter" }}
                 >
                   Story CreatAR: a Toolkit for Spatially-Adaptive AR
                   Storytelling
                 </chakra.h2>
-                <chakra.h4
-                  mb={5}
-                  textAlign={{ base: "center", sm: "left" }}
-                  fontSize={{ md: "md" }}
-                >
+                <chakra.h4 mb={5} fontSize={{ md: "md" }}>
                   2021 IEEE Virtual Reality
                 </chakra.h4>
                 <chakra.p
@@ -151,6 +142,7 @@ export default function LatestResearch() {
                 borderRadius="10px"
                 h="85%"
                 src={scar}
+                display={{ base: "none", md: "block" }}
               />
             </SimpleGrid>
             <SimpleGrid
@@ -166,24 +158,17 @@ export default function LatestResearch() {
                   fontSize={{ base: "2xl", md: "4xl" }}
                   fontWeight="extrabold"
                   letterSpacing="tight"
-                  textAlign={{ base: "center", md: "left" }}
                   color={useColorModeValue("gray.900", "gray.400")}
                   lineHeight={{ md: "shorter" }}
                 >
                   Using Space Syntax to Enable Walkable AR Experiences
                 </chakra.h2>
-                <chakra.h4
-                  mb={5}
-                  textAlign={{ base: "center", sm: "left" }}
-                  // color={useColorModeValue("gray.600", "gray.400")}
-                  fontSize={{ md: "md" }}
-                >
+                <chakra.h4 mb={5} fontSize={{ md: "md" }}>
                   2020 IEEE International Symposium on Mixed and Augmented
                   Reality
                 </chakra.h4>
                 <chakra.p
                   mb={5}
-                  textAlign={{ base: "center", sm: "left" }}
                   color={useColorModeValue("gray.600", "gray.400")}
                   fontSize={{ md: "lg" }}
                 >
@@ -206,6 +191,7 @@ export default function LatestResearch() {
                 border={useColorModeValue("gray.200", "gray.700")}
                 borderRadius="10px"
                 src={walkable}
+                display={{ base: "none", md: "block" }}
               />
             </SimpleGrid>
           </Box>
