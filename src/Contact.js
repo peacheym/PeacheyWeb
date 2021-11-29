@@ -1,5 +1,12 @@
 import React from "react";
-import { chakra, Box, Flex, useColorModeValue, Link } from "@chakra-ui/react";
+import {
+  chakra,
+  Box,
+  Flex,
+  useColorModeValue,
+  Link,
+  Text,
+} from "@chakra-ui/react";
 
 export default function Contact() {
   return (
@@ -22,17 +29,13 @@ export default function Contact() {
         w={{ base: "100%", md: "70%" }}
       >
         <Box mt={2}>
-          <Link
+          <Text
             fontSize="2xl"
             color={useColorModeValue("gray.700", "white")}
             fontWeight="700"
-            _hover={{
-              color: useColorModeValue("gray.600", "gray.200"),
-              textDecor: "underline",
-            }}
           >
             Contact Me!
-          </Link>
+          </Text>
           <chakra.p mt={2} color={useColorModeValue("gray.600", "gray.300")}>
             Please feel free to get in touch with me via{" "}
             <Link color="orange.300" href="mailto:peacheym@dal.ca" isExternal>
