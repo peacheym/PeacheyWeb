@@ -7,6 +7,8 @@ import {
   Text,
   Image,
   Link,
+  UnorderedList,
+  ListItem,
 } from "@chakra-ui/react";
 
 import headshot from "./images/headshot.jpg";
@@ -20,7 +22,11 @@ export default function Hero() {
         py={{ base: 20, md: 28 }}
         direction={{ base: "column", md: "row" }}
       >
-        <Stack flex={1} spacing={{ base: 5, md: 7 }}>
+        <Stack
+          flex={1}
+          p={{ base: "0px 50px", md: 0 }}
+          spacing={{ base: 5, md: 7 }}
+        >
           <Heading
             lineHeight={1.1}
             fontWeight={600}
@@ -53,14 +59,21 @@ export default function Hero() {
             </Link>{" "}
             and I am a member of the{" "}
             <Link color="orange.500" href="https://gem.cs.dal.ca/" isExternal>
-              Graphics and Experiential Media (GEM) Lab
+              GEM Lab
             </Link>
             !
           </Text>
-          <Text color={"gray.500"}>
-            My research interests are: Human Computer Interaction (HCI), Machine
-            Learning (ML), Digital Musical Instruments (DMIs), and more!
-          </Text>
+          <Box>
+            <Text mb="10px" fontSize="lg" color={"gray.500"}>
+              My research interests are:
+            </Text>
+            <UnorderedList color={"gray.500"}>
+              <ListItem>Human Computer Interaction.</ListItem>
+              <ListItem> Machine Learning.</ListItem>
+              <ListItem>Digital Musical Instruments.</ListItem>
+              <ListItem>Plenty more!</ListItem>
+            </UnorderedList>
+          </Box>
         </Stack>
         <Flex
           flex={1}
@@ -74,7 +87,7 @@ export default function Hero() {
             height={"500px"}
             rounded={"2xl"}
             boxShadow={"2xl"}
-            width={"full"}
+            width={"75%"}
             overflow={"hidden"}
           >
             <Image
