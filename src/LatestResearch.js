@@ -29,7 +29,7 @@ export default function LatestResearch() {
           Latest Research
         </Heading>
         <Divider marginTop="5" />
-        <Flex px={20} w="full">
+        <Flex px={{ base: "30px", md: 20 }} w="full">
           <Box
             bg={useColorModeValue("#F9FAFB", "gray.600")}
             px={8}

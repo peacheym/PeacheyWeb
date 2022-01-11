@@ -6,6 +6,7 @@ export default function Timeline() {
     <Box
       maxW={"7xl"}
       py="50px"
+      px={{ base: "30px", md: 0 }}
       m="0px auto"
       mb={{ base: "0px", md: "50px" }}
       id="experience"
