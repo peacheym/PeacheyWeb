@@ -19,11 +19,16 @@ import walkable from "./images/Walkable_Image.png";
 export default function LatestResearch() {
   return (
     <Box bg={useColorModeValue("#F9FAFB", "gray.600")}>
-      <Box maxW={"7xl"} pt="50px" m="0px auto" id="research">
+      <Box
+        maxW={"7xl"}
+        pt={{ base: "0px", md: "50px" }}
+        m="0px auto"
+        id="research"
+      >
         <Heading
           as="h1"
           px={{ base: "10px", lg: 0 }}
-          fontSize={{ base: "24px", md: "40px" }}
+          fontSize={{ base: "24px", md: "36px" }}
           textAlign={{ base: "center", md: "left" }}
         >
           Latest Research
@@ -33,20 +38,20 @@ export default function LatestResearch() {
           <Box
             bg={useColorModeValue("#F9FAFB", "gray.600")}
             px={8}
-            py={20}
+            py={{ base: 5, md: 20 }}
             mx="auto"
           >
             <SimpleGrid
               alignItems="start"
               columns={{ base: 1, md: 2 }}
-              mb={24}
+              mb={{ base: 10, md: 24 }}
               spacingY={{ base: 10, md: 32 }}
               spacingX={{ base: 10, md: 24 }}
             >
               <Box>
                 <chakra.h2
                   mb={4}
-                  fontSize={{ base: "2xl", md: "4xl" }}
+                  fontSize={{ base: "xl", md: "2xl" }}
                   fontWeight="extrabold"
                   letterSpacing="tight"
                   color={useColorModeValue("gray.900", "gray.400")}
@@ -61,7 +66,7 @@ export default function LatestResearch() {
                 <chakra.p
                   mb={5}
                   color={useColorModeValue("gray.600", "gray.400")}
-                  fontSize={{ md: "lg" }}
+                  fontSize={{ md: "md" }}
                 >
                   Mar Gonzalez-Franco, Zelia Egan,{" "}
                   <strong> Matthew Peachey</strong>, Angus Antley, Tanmay
@@ -90,7 +95,7 @@ export default function LatestResearch() {
                 align={"center"}
                 border={useColorModeValue("gray.200", "gray.700")}
                 borderRadius="10px"
-                h="85%"
+                h="80%"
                 src={movebox}
                 display={{ base: "none", md: "block" }}
               />
@@ -99,14 +104,14 @@ export default function LatestResearch() {
               alignItems="center"
               columns={{ base: 1, md: 2 }}
               flexDirection="column-reverse"
-              mb={24}
+              mb={{ base: 10, md: 24 }}
               spacingY={{ base: 10, md: 32 }}
               spacingX={{ base: 10, md: 24 }}
             >
               <Box order={{ base: "none", md: 2 }}>
                 <chakra.h2
                   mb={4}
-                  fontSize={{ base: "2xl", md: "4xl" }}
+                  fontSize={{ base: "xl", md: "2xl" }}
                   fontWeight="extrabold"
                   letterSpacing="tight"
                   color={useColorModeValue("gray.900", "gray.400")}
@@ -121,7 +126,7 @@ export default function LatestResearch() {
                 <chakra.p
                   mb={5}
                   color={useColorModeValue("gray.600", "gray.400")}
-                  fontSize={{ md: "lg" }}
+                  fontSize={{ md: "md" }}
                 >
                   Abbey Singh, Ramanpreet Kaur, Peter Haltner,{" "}
                   <strong>Matthew Peachey</strong>, Mar Gonzalez-Franco, Joseph
@@ -140,7 +145,7 @@ export default function LatestResearch() {
                 align={"center"}
                 border={useColorModeValue("gray.200", "gray.700")}
                 borderRadius="10px"
-                h="85%"
+                h="80%"
                 src={scar}
                 display={{ base: "none", md: "block" }}
               />
@@ -148,14 +153,14 @@ export default function LatestResearch() {
             <SimpleGrid
               alignItems="start"
               columns={{ base: 1, md: 2 }}
-              mb={24}
+              mb={{ base: 10, md: 24 }}
               spacingY={{ base: 10, md: 32 }}
               spacingX={{ base: 10, md: 24 }}
             >
               <Box>
                 <chakra.h2
                   mb={4}
-                  fontSize={{ base: "2xl", md: "4xl" }}
+                  fontSize={{ base: "xl", md: "2xl" }}
                   fontWeight="extrabold"
                   letterSpacing="tight"
                   color={useColorModeValue("gray.900", "gray.400")}
@@ -170,7 +175,7 @@ export default function LatestResearch() {
                 <chakra.p
                   mb={5}
                   color={useColorModeValue("gray.600", "gray.400")}
-                  fontSize={{ md: "lg" }}
+                  fontSize={{ md: "md" }}
                 >
                   Derek Reilly, Joseph Malloch, Abbey Singh, Issac Fresia,
                   Shivam Mahajan, Jake Moore and{" "}
@@ -191,7 +196,7 @@ export default function LatestResearch() {
                 border={useColorModeValue("gray.200", "gray.700")}
                 borderRadius="10px"
                 src={walkable}
-                h="85%"
+                h="80%"
                 display={{ base: "none", md: "block" }}
               />
             </SimpleGrid>

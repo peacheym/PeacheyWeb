@@ -21,6 +21,7 @@ export default function Hero() {
         spacing={{ base: 8, md: 10 }}
         py={{ base: 20, md: 28 }}
         direction={{ base: "column", md: "row" }}
+        minH={'90vh'}
       >
         <Stack
           flex={1}

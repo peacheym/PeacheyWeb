@@ -7,6 +7,7 @@ import Hero from "./Hero";
 import LatestResearch from "./LatestResearch";
 import Timeline from "./Timeline";
 import Contact from "./Contact";
+import News from "./News";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <NavBar />
       <Hero />
       <LatestResearch />
+      <News />
       <Timeline />
       <Contact />
       <Footer />
