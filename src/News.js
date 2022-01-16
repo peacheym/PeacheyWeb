@@ -2,11 +2,14 @@ import {
   Box,
   Heading,
   Divider,
-  UnorderedList,
+  List,
   ListItem,
   Text,
   Link,
+  ListIcon,
 } from "@chakra-ui/react";
+
+import { ExternalLinkIcon } from "@chakra-ui/icons";
 
 export default function Timeline() {
   return (
@@ -27,9 +30,14 @@ export default function Timeline() {
         In the News
       </Heading>
       <Divider marginTop="5" marginBottom="10" />
-      <UnorderedList>
+      <List spacing={3}>
         <ListItem>
-          <Text fontSize={"20px"}>
+          <ListIcon
+            as={ExternalLinkIcon}
+            fontSize={"22px"}
+            color="orange.500"
+          />
+          <Text fontSize={"20px"} display={"inline"}>
             <Link
               isExternal
               fontSize={"22px"}
@@ -41,7 +49,13 @@ export default function Timeline() {
           </Text>
         </ListItem>
         <ListItem>
-          <Text fontSize={"20px"}>
+          {" "}
+          <ListIcon
+            as={ExternalLinkIcon}
+            fontSize={"22px"}
+            color="orange.500"
+          />
+          <Text fontSize={"20px"} display={"inline"}>
             <Link
               isExternal
               fontSize={"22px"}
@@ -54,7 +68,13 @@ export default function Timeline() {
           </Text>
         </ListItem>{" "}
         <ListItem>
-          <Text fontSize={"20px"}>
+          {" "}
+          <ListIcon
+            as={ExternalLinkIcon}
+            fontSize={"22px"}
+            color="orange.500"
+          />
+          <Text fontSize={"20px"} display={"inline"}>
             <Link
               isExternal
               fontSize={"22px"}
@@ -77,7 +97,7 @@ export default function Timeline() {
             | <PAPER HERE>
           </Text>
         </ListItem> */}
-      </UnorderedList>
+      </List>
     </Box>
   );
 }

@@ -6,6 +6,8 @@ import {
   useColorModeValue,
   Link,
   Text,
+  UnorderedList,
+  ListItem,
 } from "@chakra-ui/react";
 
 export default function Contact() {
@@ -36,31 +38,70 @@ export default function Contact() {
           >
             Contact Me!
           </Text>
-          <chakra.p mt={2} color={useColorModeValue("gray.600", "gray.300")}>
-            Please feel free to get in touch with me via{" "}
-            <Link color="orange.300" href="mailto:peacheym@dal.ca" isExternal>
-              Email
-            </Link>{" "}
-            or{" "}
-            <Link
-              color="orange.300"
-              href="https://www.linkedin.com/in/matt-peachey-02bb11152/"
-              isExternal
-            >
-              LinkedIn
-            </Link>
-            . I am also on Twitter at{" "}
-            <Link
-              color="orange.300"
-              href="https://twitter.com/MattPeachey3"
-              isExternal
-            >
-              @mattpeachey3
-            </Link>{" "}
-            but I tend to do significantly more 'liking' than 'tweeting'!
-          </chakra.p>
+          <Text mt={2} color={useColorModeValue("gray.600", "gray.300")}>
+            Please feel free to get in touch with me on the following platforms:
+          </Text>
+          <UnorderedList>
+            <ListItem>
+              <Link
+                fontWeight="bold"
+                color="orange.400"
+                href="mailto:peacheym@dal.ca"
+                isExternal
+              >
+                Email
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link
+                fontWeight="bold"
+                color="orange.400"
+                href="https://www.linkedin.com/in/matt-peachey-02bb11152/"
+                isExternal
+              >
+                LinkedIn
+              </Link>
+            </ListItem>
+            <ListItem>
+              <Link
+                fontWeight="bold"
+                color="orange.400"
+                href="https://twitter.com/MattPeachey3"
+                isExternal
+                display={"inline"}
+              >
+                Twitter
+              </Link>
+              <Text display={"inline"} fontSize={"sm"} color="gray.600">
+                {" "}
+                &rarr; (I tend to do significantly more 'liking' than
+                'tweeting'!)
+              </Text>
+            </ListItem>
+          </UnorderedList>
         </Box>
       </Box>
     </Flex>
   );
 }
+
+// <Link color="orange.300" href="mailto:peacheym@dal.ca" isExternal>
+// Email
+// </Link>{" "}
+// or{" "}
+// <Link
+//   color="orange.300"
+//   href="https://www.linkedin.com/in/matt-peachey-02bb11152/"
+//   isExternal
+// >
+//   LinkedIn
+// </Link>
+// . I am also on Twitter at{" "}
+// <Link
+//   color="orange.300"
+//   href="https://twitter.com/MattPeachey3"
+//   isExternal
+// >
+//   @mattpeachey3
+// </Link>{" "}
+// but I tend to do significantly more 'liking' than 'tweeting'!
