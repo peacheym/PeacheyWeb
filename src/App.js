@@ -16,7 +16,6 @@ function App() {
       <Hero />
       <LatestResearch />
       <News />
-      <Timeline />
       <Contact />
       <Footer />
     </ChakraProvider>
